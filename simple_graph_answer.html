@@ -20,24 +20,24 @@
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
-  <form>
+  <!--<form>
   Layout:
     <label><input type="radio" name="layout" value="force"> Force</label>
     <label><input type="radio" name="layout" value="random" > Random</label>
     <label><input type="radio" name="layout" value="radial"> Radial</label>  
     <label><input type="radio" name="layout" value="line" checked> Line</label>
     <label><input type="radio" name="layout" value="line_cat"> Line by Category</label>
-  </form>
-  <form>
+  </form>-->
+  <!--<form>
   Color:
     <label><input type="radio" name="color" value="nocolor" checked> None</label>
     <label><input type="radio" name="color" value="color_cat" > Category</label>
-  </form>
-  <form>
+  </form>-->
+  <!--<form>
   Size:
     <label><input type="radio" name="size" value="nosize" checked> None</label>
     <label><input type="radio" name="size" value="size_cat" > Category</label>
-  </form>
+  </form>-->
   <form>
   Axis:
     <label><input type="radio" name="axis" value="index" checked> Indexed</label>
@@ -57,7 +57,7 @@ d3.json("temp.json", function(error, json) {
 	var svg = d3.select("body").append("svg")
 		    .attr("width", width)
 		    .attr("height", height);
-	
+
 	var fill = d3.scale.category10();
 	
 	
@@ -83,6 +83,8 @@ d3.json("temp.json", function(error, json) {
 	var tree = function(d) { return d.author.login; };
 	catScale.domain(data.map(tree));
 	
+	
+	// Graph
 	
 	var graph = {nodes:[], links:[]};
 	
@@ -156,7 +158,7 @@ d3.json("temp.json", function(error, json) {
 			d.x = indexScale(i);
 		})
 		
-		graph_update(500);
+		graph_update(0);
 	}
 
 	
@@ -174,7 +176,7 @@ d3.json("temp.json", function(error, json) {
 			d.x = indexScale(i);
 		})
 		
-		graph_update(500);
+		graph_update(0);
 	}
 	
 	function radial_layout() {
@@ -256,7 +258,6 @@ d3.json("temp.json", function(error, json) {
 			var splitdate = d.commit.author.date.split("");
 			var thisdate = new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]);
 			d.x = timeScale(thisdate);
-			console.log(d.x);
 		})
 		
 		graph_update(500);
@@ -264,16 +265,63 @@ d3.json("temp.json", function(error, json) {
 	
 	var link = svg.selectAll(".link")
 		      .data(graph.links)
-		      .enter().append("line")
+		      .enter()
+		      .append("line")
 		      .attr("class", "link")
 		      .attr("marker-end", "url(#end)");
 	
 	var node = svg.selectAll(".node")
 		      .data(graph.nodes)
 		      .enter()
-		      .append("g").attr("class", "node")
+		      .append("g")
+		      .attr("class", function(d) {
+		      	return "cat" +  d.cat + " node";
+		      })
 		      .on("click", function(d){
 		      	console.log(d);
+		      })
+		      .on("mouseover", function(d) {
+				d3.selectAll("." + this.classList[0] + " circle")
+					.transition()
+					.duration(500)
+					.attr("r", function(d) { 
+						return 8; 
+					});
+				
+					
+				svg.append("rect")
+					.attr("id", "hoverrect")
+					.attr("x", function() { return d.x; })
+					.attr("y", function() { return d.y; })
+					.attr("width", 300)
+					.attr("height", 40)
+					.attr("fill", "white")
+					.attr("stroke", "black")
+					.attr("stroke-width", 2);
+					
+				svg.append("text")
+					.attr("id", "hovernode")
+					.attr("x", function() { return d.x + 10; })
+					.attr("y", function() { return d.y + 20; })
+					.attr("width", 300)
+					.attr("height", 40)
+					.text(this.__data__.commit.author.name + " " + this.__data__.commit.author.date);
+		      })
+		      .on("mouseout", function(d) {
+				d3.selectAll("." + this.classList[0] + " circle")
+					.transition()
+					.duration(500)
+					.attr("r", function(d) { 
+						return 5; 
+					});
+				d3.selectAll("#hovernode")
+					.transition()
+					.duration(100)
+					.remove();
+				d3.selectAll("#hoverrect")
+					.transition()
+					.duration(100)
+					.remove();
 		      });
 	
 	node.append("circle")
@@ -294,6 +342,8 @@ d3.json("temp.json", function(error, json) {
 		.attr("d", "M0,-5L10,0L0,5");
 	    
 	force_layout();
+	line_cat_layout();
+	category_color();
 });
 
 </script>
