@@ -226,7 +226,7 @@ d3.json("temp.json", function(error, json) {
 			.attr("fill", "none")
 			.attr("d", function(d) {
 				console.log(d.source);
-				return "M" + d.target.x + " " + d.target.y + " L" + d.target.x + " " + d.source.y + " L" + d.source.x + " " + d.source.y
+				return "M" + d.target.x + " " + d.target.y + " q" + 0 + " " + (d.source.y - d.target.y) + " " + (d.source.x - d.target.x) + " " + (d.source.y - d.target.y)
 			});
 		
 		node.transition()
