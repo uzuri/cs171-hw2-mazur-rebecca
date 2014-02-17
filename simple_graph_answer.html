@@ -46,8 +46,8 @@
 <script>
 
 // Change this to hit github server later so as to not use up requests in testing
-d3.json("temp3.json", function(error, json)
-//d3.json("https://api.github.com/repos/mozilla/localForage/commits?per_page=50", function(error, json) 
+//d3.json("temp3.json", function(error, json)
+d3.json("https://api.github.com/repos/mozilla/localForage/commits?per_page=50", function(error, json) 
 {
 	if (error) return console.warn(error);
 	data = json;
