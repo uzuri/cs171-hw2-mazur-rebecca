@@ -52,9 +52,10 @@ d3.json("temp3.json", function(error, json)
 	if (error) return console.warn(error);
 	data = json;
 	
-	var width = 900,
+	var width = 1200,
 	    height = 700,
 	    margin = 20;
+	    leftpadding = 200;
 	
 	var svg = d3.select("body").append("svg")
 		    .attr("width", width)
@@ -63,13 +64,15 @@ d3.json("temp3.json", function(error, json)
 	var fill = d3.scale.category10();
 	
 	
+	
+	
 	// Scales
 	
-	var indexScale = d3.scale.linear().range([0 + margin, width - margin - margin]);
+	var indexScale = d3.scale.linear().range([0 + leftpadding, width - margin - leftpadding]);
 	indexScale.domain([data.length, 0]);
 
 	
-	var timeScale = d3.time.scale().range([0 + margin, width - margin - margin]);
+	var timeScale = d3.time.scale().range([0 + leftpadding, width - margin - leftpadding]);
 	var max = d3.max(data, function(d) { 
 		var  splitdate = d.commit.author.date.split("");
 		return new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]); 
@@ -83,28 +86,14 @@ d3.json("temp3.json", function(error, json)
 	
 	var catScale = d3.scale.ordinal().rangeRoundBands([0, 10], 0, 0);
 	var tree = function(d) { return d.author.login; };
-	catScale.domain(data.map(tree));
-	
+	catScale.domain(data.map(tree)); 
 	
 	// Graph
 	
 	var graph = {nodes:[], links:[]};
 	
-	
-	
-	//var nb_nodes = 100, nb_cat = 10;
-	/*graph.nodes = d3.range(nb_nodes).map(function() {  
-	  return { cat:Math.floor(nb_cat*Math.random()) }; 
-	})*/
 	graph.nodes = data;
 	
-	/*graph.nodes.map(function(d, i) {
-	  graph.nodes.map(function(e, j) {
-	    if(Math.random()>.99 && i!=j)
-	      graph.links.push({"source": i, "target": j})
-	
-	  })
-	})*/
 	graph.nodes.map(function(d, i) {
 		graph.nodes.map(function(e, j) {
 			d.cat = catScale(d.author.login);
@@ -162,12 +151,6 @@ d3.json("temp3.json", function(error, json)
 		
 		graph_update(0);
 	}
-
-	
-	var tree = function(d) { return d.commit.tree.sha; };
-	var catScale = d3.scale.ordinal().rangeRoundBands([0, height/2], .8, 0);
-	catScale.domain(data.map(tree));
-	
 	
 	function line_cat_layout() {
 	
@@ -207,6 +190,7 @@ d3.json("temp3.json", function(error, json)
 	  graph_update(500);
 	}
 	
+	
 	function category_color() {
 	  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
 	}
@@ -227,7 +211,6 @@ d3.json("temp3.json", function(error, json)
 			.duration(delay)
 			.attr("fill", "none")
 			.attr("d", function(d) {
-				console.log(d.source);
 				return "M" + d.target.x + " " + d.target.y + " q" + 0 + " " + (d.source.y - d.target.y) + " " + (d.source.x - d.target.x) + " " + (d.source.y - d.target.y)
 			});
 		
@@ -273,13 +256,6 @@ d3.json("temp3.json", function(error, json)
 		
 		graph_update(500);
 	});
-	
-	/*var link = svg.selectAll(".link")
-		      .data(graph.links)
-		      .enter()
-		      .append("line")
-		      .attr("class", "link")
-		      .attr("marker-end", "url(#end)");*/
 		      
 		      
 	var link = svg.selectAll(".link")
@@ -295,9 +271,6 @@ d3.json("temp3.json", function(error, json)
 		      .append("g")
 		      .attr("class", function(d) {
 		      	return "cat" +  d.cat + " node";
-		      })
-		      .on("click", function(d){
-		      	console.log(d);
 		      })
 		      .on("mouseover", function(d) {
 				d3.selectAll("." + this.classList[0] + " circle")
@@ -345,6 +318,22 @@ d3.json("temp3.json", function(error, json)
 	
 	node.append("circle")
 	    .attr("r", 5);
+	    
+	  
+	    
+	var authlabel = svg.selectAll(".authors")
+			.data(catScale.domain())
+			.enter()
+			.append("text")
+			.attr("class", "authors")
+			.attr("y", function(d, i) {
+				return (height - force.charge())/2 + (i * 20);
+				})
+			.attr("x", margin)
+			.text(function(d) {
+				return d;
+			});
+	    
 	
 	svg.append("svg:defs")
 		.selectAll("marker")
