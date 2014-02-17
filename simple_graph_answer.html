@@ -22,10 +22,10 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
   <form>
   Layout:
-    <label><input type="radio" name="layout" value="force" checked> Force</label>
+    <label><input type="radio" name="layout" value="force"> Force</label>
     <label><input type="radio" name="layout" value="random" > Random</label>
     <label><input type="radio" name="layout" value="radial"> Radial</label>  
-    <label><input type="radio" name="layout" value="line"> Line</label>
+    <label><input type="radio" name="layout" value="line" checked> Line</label>
     <label><input type="radio" name="layout" value="line_cat"> Line by Category</label>
   </form>
   <form>
@@ -38,169 +38,263 @@
     <label><input type="radio" name="size" value="nosize" checked> None</label>
     <label><input type="radio" name="size" value="size_cat" > Category</label>
   </form>
+  <form>
+  Axis:
+    <label><input type="radio" name="axis" value="index" checked> Indexed</label>
+    <label><input type="radio" name="axis" value="time" > Time</label>
+  </form>
 <script>
 
-var width = 900,
-    height = 700;
+// Change this to hit github server later so as to not use up requests in testing
+d3.json("temp.json", function(error, json) {
+	if (error) return console.warn(error);
+	data = json;
+	
+	var width = 900,
+	    height = 700,
+	    margin = 20;
+	
+	var svg = d3.select("body").append("svg")
+		    .attr("width", width)
+		    .attr("height", height);
+	
+	var fill = d3.scale.category10();
+	
+	
+	// Scales
+	
+	var indexScale = d3.scale.linear().range([0 + margin, width - margin - margin]);
+	indexScale.domain([data.length, 0]);
 
-var svg = d3.select("body").append("svg")
-            .attr("width", width)
-            .attr("height", height);
+	
+	var timeScale = d3.time.scale().range([0 + margin, width - margin - margin]);
+	var max = d3.max(data, function(d) { 
+		var  splitdate = d.commit.author.date.split("");
+		return new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]); 
+	});
+	var min = d3.min(data, function(d) { 
+		var  splitdate = d.commit.author.date.split("");
+		return new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]); 
+	});
+	
+	timeScale.domain([min, max]);
+	
+	var catScale = d3.scale.ordinal().rangeRoundBands([0, 10], 0, 0);
+	var tree = function(d) { return d.author.login; };
+	catScale.domain(data.map(tree));
+	
+	
+	var graph = {nodes:[], links:[]};
+	
+	
+	
+	//var nb_nodes = 100, nb_cat = 10;
+	/*graph.nodes = d3.range(nb_nodes).map(function() {  
+	  return { cat:Math.floor(nb_cat*Math.random()) }; 
+	})*/
+	graph.nodes = data;
+	
+	/*graph.nodes.map(function(d, i) {
+	  graph.nodes.map(function(e, j) {
+	    if(Math.random()>.99 && i!=j)
+	      graph.links.push({"source": i, "target": j})
+	
+	  })
+	})*/
+	graph.nodes.map(function(d, i) {
+		graph.nodes.map(function(e, j) {
+			d.cat = catScale(d.author.login);
+			for (counter = 0; counter < d.parents.length; counter++)
+			{
+				if (d.parents[counter].sha == e.sha)
+				{
+					graph.links.push({"source": i, "target": j})
+				}
+			}
+		})
+	});
+	
+	
+	// Generate the force layout
+	var force = d3.layout.force()
+	    .size([width, height])
+	    .charge(-50)
+	    .linkDistance(10)
+	    .on("tick", tick)
+	    .on("start", function(d) {})
+	    .on("end", function(d) {})
+	
+	function tick(d) {
+	
+	  graph_update(0);
+	}
+	
+	function random_layout() {
+	  
+	  force.stop();
+	
+	  graph.nodes.forEach(function(d, i) {
+	    d.x = width/4 + 2*width*Math.random()/4;
+	    d.y = height/4 + 2*height*Math.random()/4;
+	  })
+	  
+	  graph_update(500);
+	}
+	
+	function force_layout() {
+	
+	 force.nodes(graph.nodes)
+	      .links(graph.links)
+	      .start();
+	}
+	
+	function line_layout() {
+		force.stop();
+		
+		graph.nodes.forEach(function(d, i) {
+			d.y = height/2;
+			d.x = indexScale(i);
+		})
+		
+		graph_update(500);
+	}
 
-var fill = d3.scale.category10();
-
-var graph = {nodes:[], links:[]};
-
-var nb_nodes = 100, nb_cat = 10;
-
-graph.nodes = d3.range(nb_nodes).map(function() {  
-  return { cat:Math.floor(nb_cat*Math.random()) }; 
-})
-
-graph.nodes.map(function(d, i) {
-
-  graph.nodes.map(function(e, j) {
-    if(Math.random()>.99 && i!=j)
-      graph.links.push({"source": i, "target": j})
-
-  })
-})
-
-// Generate the force layout
-var force = d3.layout.force()
-    .size([width, height])
-    .charge(-50)
-    .linkDistance(10)
-    .on("tick", tick)
-    .on("start", function(d) {})
-    .on("end", function(d) {})
-
-function tick(d) {
-
-  graph_update(0);
-}
-
-function random_layout() {
-  
-  force.stop();
-
-  graph.nodes.forEach(function(d, i) {
-    d.x = width/4 + 2*width*Math.random()/4;
-    d.y = height/4 + 2*height*Math.random()/4;
-  })
-  
-  graph_update(500);
-}
-
-function force_layout() {
-
- force.nodes(graph.nodes)
-      .links(graph.links)
-      .start();
-}
-
-function line_layout() {
-
-  force.stop();
-
-  graph.nodes.forEach(function(d, i) {
-    d.y = height/2;
-  })
-
-  graph_update(500);
-}
-
-function line_cat_layout() {
-
-  force.stop();
-
-  graph.nodes.forEach(function(d, i) {
-    d.y = height/2 + d.cat*20;
-  })
-
-  graph_update(500);
-}
-
-function radial_layout() {
-
-  force.stop();
-
-  var r = height/2;
-
-  var arc = d3.svg.arc()
-          .outerRadius(r);
-
-  var pie = d3.layout.pie()
-  .sort(function(a, b) { return a.cat - b.cat;})
-          .value(function(d, i) { return 1; }); // equal share for each point
-
-  graph.nodes = pie(graph.nodes).map(function(d, i) {
-    d.innerRadius = 0;
-    d.outerRadius = r;
-    d.data.x = arc.centroid(d)[0]+height/2;
-    d.data.y = arc.centroid(d)[1]+width/2;
-    d.data.endAngle = d.endAngle; 
-    d.data.startAngle = d.startAngle; 
-    return d.data;
-  })
-
-  graph_update(500);
-}
-
-function category_color() {
-  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
-}
-
-function category_size() {
-  d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return Math.sqrt((d.cat+1)*10); });
-}
-
-function graph_update(delay) {
-
-  link.transition().duration(delay)
-      .attr("x1", function(d) { return d.target.x; })
-      .attr("y1", function(d) { return d.target.y; })
-      .attr("x2", function(d) { return d.source.x; })
-      .attr("y2", function(d) { return d.source.y; });
-
-  node.transition().duration(delay)
-      .attr("transform", function(d) { 
-        return "translate("+d.x+","+d.y+")"; 
-      });
-}
-
-d3.select("input[value=\"force\"]").on("click", force_layout);
-d3.select("input[value=\"random\"]").on("click", random_layout);
-d3.select("input[value=\"line\"]").on("click", line_layout);
-d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
-d3.select("input[value=\"radial\"]").on("click", radial_layout);
-
-d3.select("input[value=\"nocolor\"]").on("click", function() {
-  d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
-})
-
-d3.select("input[value=\"color_cat\"]").on("click", category_color);
-
-d3.select("input[value=\"nosize\"]").on("click", function() {
-  d3.selectAll("circle").transition().duration(500).attr("r", 5);
-})
-
-d3.select("input[value=\"size_cat\"]").on("click", category_size);
-
-var link = svg.selectAll(".link")
-              .data(graph.links)
-            .enter().append("line")
-              .attr("class", "link")
-
-var node = svg.selectAll(".node")
-              .data(graph.nodes)
-            .enter()
-              .append("g").attr("class", "node");
-
-node.append("circle")
-    .attr("r", 5)
-
-force_layout();
+	
+	var tree = function(d) { return d.commit.tree.sha; };
+	var catScale = d3.scale.ordinal().rangeRoundBands([0, height/2], .8, 0);
+	catScale.domain(data.map(tree));
+	
+	
+	function line_cat_layout() {
+	
+		force.stop();
+		
+		graph.nodes.forEach(function(d, i) {
+			d.y = height/2 + d.cat*20;
+			d.x = indexScale(i);
+		})
+		
+		graph_update(500);
+	}
+	
+	function radial_layout() {
+	
+	  force.stop();
+	
+	  var r = height/2;
+	
+	  var arc = d3.svg.arc()
+		  .outerRadius(r);
+	
+	  var pie = d3.layout.pie()
+	  .sort(function(a, b) { return a.cat - b.cat;})
+		  .value(function(d, i) { return 1; }); // equal share for each point
+	
+	  graph.nodes = pie(graph.nodes).map(function(d, i) {
+	    d.innerRadius = 0;
+	    d.outerRadius = r;
+	    d.data.x = arc.centroid(d)[0]+height/2;
+	    d.data.y = arc.centroid(d)[1]+width/2;
+	    d.data.endAngle = d.endAngle; 
+	    d.data.startAngle = d.startAngle; 
+	    return d.data;
+	  })
+	
+	  graph_update(500);
+	}
+	
+	function category_color() {
+	  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
+	}
+	
+	function category_size() {
+	  d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return Math.sqrt((d.cat+1)*10); });
+	}
+	
+	function graph_update(delay) {
+	
+	  link.transition().duration(delay)
+	      .attr("x1", function(d) { return d.target.x; })
+	      .attr("y1", function(d) { return d.target.y; })
+	      .attr("x2", function(d) { return d.source.x; })
+	      .attr("y2", function(d) { return d.source.y; });
+	
+	  node.transition().duration(delay)
+	      .attr("transform", function(d) { 
+		return "translate("+d.x+","+d.y+")"; 
+	      });
+	}
+	
+	d3.select("input[value=\"force\"]").on("click", force_layout);
+	d3.select("input[value=\"random\"]").on("click", random_layout);
+	d3.select("input[value=\"line\"]").on("click", line_layout);
+	d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
+	d3.select("input[value=\"radial\"]").on("click", radial_layout);
+	
+	d3.select("input[value=\"nocolor\"]").on("click", function() {
+	  d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
+	})
+	
+	d3.select("input[value=\"color_cat\"]").on("click", category_color);
+	
+	d3.select("input[value=\"nosize\"]").on("click", function() {
+	  d3.selectAll("circle").transition().duration(500).attr("r", 5);
+	})
+	
+	d3.select("input[value=\"size_cat\"]").on("click", category_size);
+	
+	
+	d3.select("input[value=\"index\"]").on("click", function(){
+		graph.nodes.forEach(function(d, i) {
+			d.x = indexScale(i);
+		})
+		
+		graph_update(500);
+	});
+	d3.select("input[value=\"time\"]").on("click", function(){
+		graph.nodes.forEach(function(d, i) {
+			var splitdate = d.commit.author.date.split("");
+			var thisdate = new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]);
+			d.x = timeScale(thisdate);
+			console.log(d.x);
+		})
+		
+		graph_update(500);
+	});
+	
+	var link = svg.selectAll(".link")
+		      .data(graph.links)
+		      .enter().append("line")
+		      .attr("class", "link")
+		      .attr("marker-end", "url(#end)");
+	
+	var node = svg.selectAll(".node")
+		      .data(graph.nodes)
+		      .enter()
+		      .append("g").attr("class", "node")
+		      .on("click", function(d){
+		      	console.log(d);
+		      });
+	
+	node.append("circle")
+	    .attr("r", 5);
+	
+	svg.append("svg:defs")
+		.selectAll("marker")
+		.data(["end"])      // Different link/path types can be defined here
+		.enter().append("svg:marker")    // This section adds in the arrows
+		.attr("id", String)
+		.attr("viewBox", "0 -5 10 10")
+		.attr("refX", 15)
+		.attr("refY", -1.5)
+		.attr("markerWidth", 6)
+		.attr("markerHeight", 6)
+		.attr("orient", "auto")
+		.append("svg:path")
+		.attr("d", "M0,-5L10,0L0,5");
+	    
+	force_layout();
+});
 
 </script>
 </body>
