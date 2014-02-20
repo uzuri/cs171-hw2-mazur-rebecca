@@ -1,0 +1,2102 @@
+[
+  {
+    "sha": "dfa60ca36ad3e1b8e86614fb31aace78b8bca9e0",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-07T11:52:44Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-07T11:52:44Z"
+      },
+      "message": "fix test libs version: otherwise tests may fail because of the phantomjs failing",
+      "tree": {
+        "sha": "b2e40e372a04ded78021988d8e75c20fade439ed",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/b2e40e372a04ded78021988d8e75c20fade439ed"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/dfa60ca36ad3e1b8e86614fb31aace78b8bca9e0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/dfa60ca36ad3e1b8e86614fb31aace78b8bca9e0",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/dfa60ca36ad3e1b8e86614fb31aace78b8bca9e0",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/dfa60ca36ad3e1b8e86614fb31aace78b8bca9e0/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f20be1ccf6c886bbf9d971fecb6f6570779bb319",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/f20be1ccf6c886bbf9d971fecb6f6570779bb319",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/f20be1ccf6c886bbf9d971fecb6f6570779bb319"
+      }
+    ]
+  },
+  {
+    "sha": "f20be1ccf6c886bbf9d971fecb6f6570779bb319",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-07T09:23:16Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-07T09:23:16Z"
+      },
+      "message": "fix async view hide",
+      "tree": {
+        "sha": "0265aa08b9fbd25898174a89d7c4f3d5081dfd5b",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/0265aa08b9fbd25898174a89d7c4f3d5081dfd5b"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/f20be1ccf6c886bbf9d971fecb6f6570779bb319",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/f20be1ccf6c886bbf9d971fecb6f6570779bb319",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/f20be1ccf6c886bbf9d971fecb6f6570779bb319",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/f20be1ccf6c886bbf9d971fecb6f6570779bb319/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "542b32bddb34af9adccc8fc54f0d23f0d40e481d",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/542b32bddb34af9adccc8fc54f0d23f0d40e481d",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/542b32bddb34af9adccc8fc54f0d23f0d40e481d"
+      }
+    ]
+  },
+  {
+    "sha": "542b32bddb34af9adccc8fc54f0d23f0d40e481d",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-06T15:16:23Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-06T15:16:23Z"
+      },
+      "message": "test by @lapple",
+      "tree": {
+        "sha": "60086870841872377aa39dcccbcdf1f238814124",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/60086870841872377aa39dcccbcdf1f238814124"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/542b32bddb34af9adccc8fc54f0d23f0d40e481d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/542b32bddb34af9adccc8fc54f0d23f0d40e481d",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/542b32bddb34af9adccc8fc54f0d23f0d40e481d",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/542b32bddb34af9adccc8fc54f0d23f0d40e481d/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ac244daf1b1378ea0df8311855b2158ced7e6dc0",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ac244daf1b1378ea0df8311855b2158ced7e6dc0",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ac244daf1b1378ea0df8311855b2158ced7e6dc0"
+      }
+    ]
+  },
+  {
+    "sha": "ac244daf1b1378ea0df8311855b2158ced7e6dc0",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-02T08:06:55Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-02T08:06:55Z"
+      },
+      "message": "some tests for subview update",
+      "tree": {
+        "sha": "be6274360636bd5f8999eeb601414fb3aa882feb",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/be6274360636bd5f8999eeb601414fb3aa882feb"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ac244daf1b1378ea0df8311855b2158ced7e6dc0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ac244daf1b1378ea0df8311855b2158ced7e6dc0",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ac244daf1b1378ea0df8311855b2158ced7e6dc0",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ac244daf1b1378ea0df8311855b2158ced7e6dc0/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ad2fcea68c5bc47bd6438a587379244b2f162ed6",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ad2fcea68c5bc47bd6438a587379244b2f162ed6",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ad2fcea68c5bc47bd6438a587379244b2f162ed6"
+      }
+    ]
+  },
+  {
+    "sha": "ad2fcea68c5bc47bd6438a587379244b2f162ed6",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T20:46:09Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T20:46:09Z"
+      },
+      "message": "fix ns-page-before-load event triggering",
+      "tree": {
+        "sha": "0a897541a816cabde504f8c350a0c718357856d2",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/0a897541a816cabde504f8c350a0c718357856d2"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ad2fcea68c5bc47bd6438a587379244b2f162ed6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ad2fcea68c5bc47bd6438a587379244b2f162ed6",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ad2fcea68c5bc47bd6438a587379244b2f162ed6",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ad2fcea68c5bc47bd6438a587379244b2f162ed6/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "410739404143631180812f9db7c38917d24e40a2",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/410739404143631180812f9db7c38917d24e40a2",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/410739404143631180812f9db7c38917d24e40a2"
+      }
+    ]
+  },
+  {
+    "sha": "410739404143631180812f9db7c38917d24e40a2",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T20:07:26Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T20:07:26Z"
+      },
+      "message": "ns-page-before-load: + newPageUrl",
+      "tree": {
+        "sha": "5671233e9bb8e059c0279f9b1bfeeb2d49ca588a",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/5671233e9bb8e059c0279f9b1bfeeb2d49ca588a"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/410739404143631180812f9db7c38917d24e40a2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/410739404143631180812f9db7c38917d24e40a2",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/410739404143631180812f9db7c38917d24e40a2",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/410739404143631180812f9db7c38917d24e40a2/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bf1a3b728a2a758eb331362d80ad3e674cdf2950",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/bf1a3b728a2a758eb331362d80ad3e674cdf2950",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/bf1a3b728a2a758eb331362d80ad3e674cdf2950"
+      }
+    ]
+  },
+  {
+    "sha": "bf1a3b728a2a758eb331362d80ad3e674cdf2950",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T19:31:16Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T19:31:16Z"
+      },
+      "message": "replace one more assert",
+      "tree": {
+        "sha": "a6074f0ecb04aef93c15e718a84ce8baa79fcc78",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/a6074f0ecb04aef93c15e718a84ce8baa79fcc78"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/bf1a3b728a2a758eb331362d80ad3e674cdf2950",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/bf1a3b728a2a758eb331362d80ad3e674cdf2950",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/bf1a3b728a2a758eb331362d80ad3e674cdf2950",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/bf1a3b728a2a758eb331362d80ad3e674cdf2950/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "40215f4e08599505c71b8dd3de1f1c6dda1691cb",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/40215f4e08599505c71b8dd3de1f1c6dda1691cb",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/40215f4e08599505c71b8dd3de1f1c6dda1691cb"
+      }
+    ]
+  },
+  {
+    "sha": "40215f4e08599505c71b8dd3de1f1c6dda1691cb",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T19:25:42Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T19:25:42Z"
+      },
+      "message": "moar tests",
+      "tree": {
+        "sha": "ec2733233557783d0fa22aa6c33d774f4932512f",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/ec2733233557783d0fa22aa6c33d774f4932512f"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/40215f4e08599505c71b8dd3de1f1c6dda1691cb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/40215f4e08599505c71b8dd3de1f1c6dda1691cb",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/40215f4e08599505c71b8dd3de1f1c6dda1691cb",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/40215f4e08599505c71b8dd3de1f1c6dda1691cb/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05437b3d7d870a10a2dbd4ee3783bb58cde07a6d",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/05437b3d7d870a10a2dbd4ee3783bb58cde07a6d",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/05437b3d7d870a10a2dbd4ee3783bb58cde07a6d"
+      }
+    ]
+  },
+  {
+    "sha": "05437b3d7d870a10a2dbd4ee3783bb58cde07a6d",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T18:40:22Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T18:40:22Z"
+      },
+      "message": "fix ns.assert.fail and write tests",
+      "tree": {
+        "sha": "2359a2c22f503cbfc31148bd5afc90cf6df09303",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/2359a2c22f503cbfc31148bd5afc90cf6df09303"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/05437b3d7d870a10a2dbd4ee3783bb58cde07a6d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/05437b3d7d870a10a2dbd4ee3783bb58cde07a6d",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/05437b3d7d870a10a2dbd4ee3783bb58cde07a6d",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/05437b3d7d870a10a2dbd4ee3783bb58cde07a6d/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bd079fbb0f0ea21975ece2330ffefde2cff47a7f",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/bd079fbb0f0ea21975ece2330ffefde2cff47a7f",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/bd079fbb0f0ea21975ece2330ffefde2cff47a7f"
+      }
+    ]
+  },
+  {
+    "sha": "bd079fbb0f0ea21975ece2330ffefde2cff47a7f",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T15:49:33Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T15:49:33Z"
+      },
+      "message": "ns.Model.prototype.needDataUpdate(data) tests",
+      "tree": {
+        "sha": "6fe37951ba6b34177b87f9d029914ceebf97b825",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/6fe37951ba6b34177b87f9d029914ceebf97b825"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/bd079fbb0f0ea21975ece2330ffefde2cff47a7f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/bd079fbb0f0ea21975ece2330ffefde2cff47a7f",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/bd079fbb0f0ea21975ece2330ffefde2cff47a7f",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/bd079fbb0f0ea21975ece2330ffefde2cff47a7f/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8eca4e35fed444eb2d1944a1bfe6617722528db1",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8eca4e35fed444eb2d1944a1bfe6617722528db1",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/8eca4e35fed444eb2d1944a1bfe6617722528db1"
+      }
+    ]
+  },
+  {
+    "sha": "8eca4e35fed444eb2d1944a1bfe6617722528db1",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T15:07:01Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-02-01T15:07:01Z"
+      },
+      "message": "ns.Model.prototype.needDataUpdate(data) added",
+      "tree": {
+        "sha": "4254833330df83dc24797bf5de8717f985ef4b9a",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/4254833330df83dc24797bf5de8717f985ef4b9a"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/8eca4e35fed444eb2d1944a1bfe6617722528db1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8eca4e35fed444eb2d1944a1bfe6617722528db1",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/8eca4e35fed444eb2d1944a1bfe6617722528db1",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/8eca4e35fed444eb2d1944a1bfe6617722528db1/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2cd5832e5e22f843d47c9b6b0f417c849fd8728e",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/2cd5832e5e22f843d47c9b6b0f417c849fd8728e",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/2cd5832e5e22f843d47c9b6b0f417c849fd8728e"
+      }
+    ]
+  },
+  {
+    "sha": "2cd5832e5e22f843d47c9b6b0f417c849fd8728e",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-25T12:01:40Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-25T12:01:44Z"
+      },
+      "message": "ns.assert.fail for faster error throw",
+      "tree": {
+        "sha": "818f50545bc7feb5660daf1750ecc7bc8bc20dd5",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/818f50545bc7feb5660daf1750ecc7bc8bc20dd5"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/2cd5832e5e22f843d47c9b6b0f417c849fd8728e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/2cd5832e5e22f843d47c9b6b0f417c849fd8728e",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/2cd5832e5e22f843d47c9b6b0f417c849fd8728e",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/2cd5832e5e22f843d47c9b6b0f417c849fd8728e/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "732390ebc3c031a1138c604f26939252567368e0",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/732390ebc3c031a1138c604f26939252567368e0",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/732390ebc3c031a1138c604f26939252567368e0"
+      }
+    ]
+  },
+  {
+    "sha": "732390ebc3c031a1138c604f26939252567368e0",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-24T21:58:38Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-24T21:58:38Z"
+      },
+      "message": "little improvement for async views: set status to ok when setting node and models are valid (it can happen)",
+      "tree": {
+        "sha": "54772c8747a644efad1f21f3fd52e76d3d9ba405",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/54772c8747a644efad1f21f3fd52e76d3d9ba405"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/732390ebc3c031a1138c604f26939252567368e0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/732390ebc3c031a1138c604f26939252567368e0",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/732390ebc3c031a1138c604f26939252567368e0",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/732390ebc3c031a1138c604f26939252567368e0/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a6643ebdf8285859c9bf95bc2473e2a66ebd31d6",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/a6643ebdf8285859c9bf95bc2473e2a66ebd31d6",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/a6643ebdf8285859c9bf95bc2473e2a66ebd31d6"
+      }
+    ]
+  },
+  {
+    "sha": "a6643ebdf8285859c9bf95bc2473e2a66ebd31d6",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-24T13:29:21Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-24T21:40:44Z"
+      },
+      "message": "One more test for ns.Update.handleError",
+      "tree": {
+        "sha": "39a1105c9fc24c1db9bd240c9a23865ff7844ab5",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/39a1105c9fc24c1db9bd240c9a23865ff7844ab5"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/a6643ebdf8285859c9bf95bc2473e2a66ebd31d6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/a6643ebdf8285859c9bf95bc2473e2a66ebd31d6",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/a6643ebdf8285859c9bf95bc2473e2a66ebd31d6",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/a6643ebdf8285859c9bf95bc2473e2a66ebd31d6/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "38c9040264d007f266ae7b9b458a0221e45d56fb",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/38c9040264d007f266ae7b9b458a0221e45d56fb",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/38c9040264d007f266ae7b9b458a0221e45d56fb"
+      }
+    ]
+  },
+  {
+    "sha": "38c9040264d007f266ae7b9b458a0221e45d56fb",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-24T01:11:42Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-24T01:11:42Z"
+      },
+      "message": "fix ns.requestManager bug (sometimes model in error status was set to status ok)",
+      "tree": {
+        "sha": "ac0d83efbedad5b1c463a43d0682869900029497",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/ac0d83efbedad5b1c463a43d0682869900029497"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/38c9040264d007f266ae7b9b458a0221e45d56fb",
+      "comment_count": 2
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/38c9040264d007f266ae7b9b458a0221e45d56fb",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/38c9040264d007f266ae7b9b458a0221e45d56fb",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/38c9040264d007f266ae7b9b458a0221e45d56fb/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d91e9627125106113cee82be9ee6afa1836d2d0f",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/d91e9627125106113cee82be9ee6afa1836d2d0f",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/d91e9627125106113cee82be9ee6afa1836d2d0f"
+      }
+    ]
+  },
+  {
+    "sha": "d91e9627125106113cee82be9ee6afa1836d2d0f",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-23T18:02:47Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-23T18:02:47Z"
+      },
+      "message": "remove unbindModels and test case for double view invalidate and view invalidate while it is hidden",
+      "tree": {
+        "sha": "d0734c9aef2a57b85a1ed85d5e323acc96ea1c03",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/d0734c9aef2a57b85a1ed85d5e323acc96ea1c03"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/d91e9627125106113cee82be9ee6afa1836d2d0f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/d91e9627125106113cee82be9ee6afa1836d2d0f",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/d91e9627125106113cee82be9ee6afa1836d2d0f",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/d91e9627125106113cee82be9ee6afa1836d2d0f/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bc809e919804e9368604b2c5cd66ee98a97f1ad6",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/bc809e919804e9368604b2c5cd66ee98a97f1ad6",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/bc809e919804e9368604b2c5cd66ee98a97f1ad6"
+      }
+    ]
+  },
+  {
+    "sha": "bc809e919804e9368604b2c5cd66ee98a97f1ad6",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-23T15:09:30Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-23T15:09:30Z"
+      },
+      "message": "test for \"redraw view after model invalidate while view was hidden\"",
+      "tree": {
+        "sha": "bf91ceda7ce061851b1f0d487dfc72d014030dba",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/bf91ceda7ce061851b1f0d487dfc72d014030dba"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/bc809e919804e9368604b2c5cd66ee98a97f1ad6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/bc809e919804e9368604b2c5cd66ee98a97f1ad6",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/bc809e919804e9368604b2c5cd66ee98a97f1ad6",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/bc809e919804e9368604b2c5cd66ee98a97f1ad6/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f685866f73957a74b75663b7031cb6ac264e2125",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/f685866f73957a74b75663b7031cb6ac264e2125",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/f685866f73957a74b75663b7031cb6ac264e2125"
+      }
+    ]
+  },
+  {
+    "sha": "f685866f73957a74b75663b7031cb6ac264e2125",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T11:52:19Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T11:52:19Z"
+      },
+      "message": "_modelEvents must not be overwritten",
+      "tree": {
+        "sha": "65be1ba69e82e1f6ee375bb702ec02a097acc396",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/65be1ba69e82e1f6ee375bb702ec02a097acc396"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/f685866f73957a74b75663b7031cb6ac264e2125",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/f685866f73957a74b75663b7031cb6ac264e2125",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/f685866f73957a74b75663b7031cb6ac264e2125",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/f685866f73957a74b75663b7031cb6ac264e2125/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b522f3d22d57205402523b1bf0bc3b57f499e7e6",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b522f3d22d57205402523b1bf0bc3b57f499e7e6",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/b522f3d22d57205402523b1bf0bc3b57f499e7e6"
+      }
+    ]
+  },
+  {
+    "sha": "b522f3d22d57205402523b1bf0bc3b57f499e7e6",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T11:41:30Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T11:41:30Z"
+      },
+      "message": "tests for the same model in multiple collections",
+      "tree": {
+        "sha": "3e8b7bd0839df9ebe233d80e2710573031162657",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/3e8b7bd0839df9ebe233d80e2710573031162657"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/b522f3d22d57205402523b1bf0bc3b57f499e7e6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b522f3d22d57205402523b1bf0bc3b57f499e7e6",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/b522f3d22d57205402523b1bf0bc3b57f499e7e6",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/b522f3d22d57205402523b1bf0bc3b57f499e7e6/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5ffada00c67dec3f82117a16ed656cf673f85a3b",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/5ffada00c67dec3f82117a16ed656cf673f85a3b",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/5ffada00c67dec3f82117a16ed656cf673f85a3b"
+      }
+    ]
+  },
+  {
+    "sha": "5ffada00c67dec3f82117a16ed656cf673f85a3b",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T10:59:38Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T10:59:38Z"
+      },
+      "message": "test for overriding onItemChanged method",
+      "tree": {
+        "sha": "2aae02373f5d68057cd057165970185c430f0466",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/2aae02373f5d68057cd057165970185c430f0466"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/5ffada00c67dec3f82117a16ed656cf673f85a3b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/5ffada00c67dec3f82117a16ed656cf673f85a3b",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/5ffada00c67dec3f82117a16ed656cf673f85a3b",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/5ffada00c67dec3f82117a16ed656cf673f85a3b/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d"
+      }
+    ]
+  },
+  {
+    "sha": "5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T10:53:46Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T10:53:46Z"
+      },
+      "message": "collection item events proxy tests part 1",
+      "tree": {
+        "sha": "6b4f1f1cbd3267528b0dc01fc44ea18515569ea8",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/6b4f1f1cbd3267528b0dc01fc44ea18515569ea8"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/5e2ff7bd92f8c45b7da79b3182f4f1334fc5a88d/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cab4805486732a480fb6106a57fd66f505767dc6",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/cab4805486732a480fb6106a57fd66f505767dc6",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/cab4805486732a480fb6106a57fd66f505767dc6"
+      }
+    ]
+  },
+  {
+    "sha": "cab4805486732a480fb6106a57fd66f505767dc6",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T10:04:15Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-19T10:04:15Z"
+      },
+      "message": "refactor unsubscribe in modelcollection save way as in view",
+      "tree": {
+        "sha": "ad61cd0a027306afbda1b140608c502a3d3e38a2",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/ad61cd0a027306afbda1b140608c502a3d3e38a2"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/cab4805486732a480fb6106a57fd66f505767dc6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/cab4805486732a480fb6106a57fd66f505767dc6",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/cab4805486732a480fb6106a57fd66f505767dc6",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/cab4805486732a480fb6106a57fd66f505767dc6/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b87074b2e523bad7085147b5becd6e682338b666",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b87074b2e523bad7085147b5becd6e682338b666",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/b87074b2e523bad7085147b5becd6e682338b666"
+      }
+    ]
+  },
+  {
+    "sha": "b87074b2e523bad7085147b5becd6e682338b666",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:45:30Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:45:30Z"
+      },
+      "message": "added make test",
+      "tree": {
+        "sha": "ff0ecf830f4e4606a879f8e53061a2c47b317843",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/ff0ecf830f4e4606a879f8e53061a2c47b317843"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/b87074b2e523bad7085147b5becd6e682338b666",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b87074b2e523bad7085147b5becd6e682338b666",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/b87074b2e523bad7085147b5becd6e682338b666",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/b87074b2e523bad7085147b5becd6e682338b666/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f"
+      }
+    ]
+  },
+  {
+    "sha": "a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:42:46Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:42:46Z"
+      },
+      "message": "ns.model replace all throws to ns.asserts",
+      "tree": {
+        "sha": "0b453cd7a3de51dab36e008f63fb869c2acbfde8",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/0b453cd7a3de51dab36e008f63fb869c2acbfde8"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/a1b2a6e3b4009fd499c8319ec82ea7b6679cfc9f/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "efd36280fcc7f825f3bba74655cd8d7c90886abc",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/efd36280fcc7f825f3bba74655cd8d7c90886abc",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/efd36280fcc7f825f3bba74655cd8d7c90886abc"
+      }
+    ]
+  },
+  {
+    "sha": "efd36280fcc7f825f3bba74655cd8d7c90886abc",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:29:30Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:29:33Z"
+      },
+      "message": "fix jscs warning",
+      "tree": {
+        "sha": "bcc2f8af86b1f1484e27db7cea24acf1c5658890",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/bcc2f8af86b1f1484e27db7cea24acf1c5658890"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/efd36280fcc7f825f3bba74655cd8d7c90886abc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/efd36280fcc7f825f3bba74655cd8d7c90886abc",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/efd36280fcc7f825f3bba74655cd8d7c90886abc",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/efd36280fcc7f825f3bba74655cd8d7c90886abc/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "03cfa8d7b10d8fe860cc5814f0911e03e72f64a2",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/03cfa8d7b10d8fe860cc5814f0911e03e72f64a2",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/03cfa8d7b10d8fe860cc5814f0911e03e72f64a2"
+      }
+    ]
+  },
+  {
+    "sha": "03cfa8d7b10d8fe860cc5814f0911e03e72f64a2",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:25:51Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:25:51Z"
+      },
+      "message": "removed 3 more tests that are meaningless",
+      "tree": {
+        "sha": "7b6178bd785db54bebaebdf8bc603dcbfbecaefb",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/7b6178bd785db54bebaebdf8bc603dcbfbecaefb"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/03cfa8d7b10d8fe860cc5814f0911e03e72f64a2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/03cfa8d7b10d8fe860cc5814f0911e03e72f64a2",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/03cfa8d7b10d8fe860cc5814f0911e03e72f64a2",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/03cfa8d7b10d8fe860cc5814f0911e03e72f64a2/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e67438dfbf6524bad7251feb3cfc6ad79a6143ab",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/e67438dfbf6524bad7251feb3cfc6ad79a6143ab",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/e67438dfbf6524bad7251feb3cfc6ad79a6143ab"
+      }
+    ]
+  },
+  {
+    "sha": "e67438dfbf6524bad7251feb3cfc6ad79a6143ab",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:23:32Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:23:32Z"
+      },
+      "message": "removed meaningless test",
+      "tree": {
+        "sha": "9fc250cc0646c447baa4bc213c60769d89c4da83",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/9fc250cc0646c447baa4bc213c60769d89c4da83"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/e67438dfbf6524bad7251feb3cfc6ad79a6143ab",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/e67438dfbf6524bad7251feb3cfc6ad79a6143ab",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/e67438dfbf6524bad7251feb3cfc6ad79a6143ab",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/e67438dfbf6524bad7251feb3cfc6ad79a6143ab/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0c0f2a2348a1419b7ad8a47b3deaea6707bb3190",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/0c0f2a2348a1419b7ad8a47b3deaea6707bb3190",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/0c0f2a2348a1419b7ad8a47b3deaea6707bb3190"
+      }
+    ]
+  },
+  {
+    "sha": "0c0f2a2348a1419b7ad8a47b3deaea6707bb3190",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:22:14Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T21:22:14Z"
+      },
+      "message": "fix first part of tests: no more triggering collection events via collection items",
+      "tree": {
+        "sha": "83ee87d94cfa4fa020df39da0fdb93999d8a66cc",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/83ee87d94cfa4fa020df39da0fdb93999d8a66cc"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/0c0f2a2348a1419b7ad8a47b3deaea6707bb3190",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/0c0f2a2348a1419b7ad8a47b3deaea6707bb3190",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/0c0f2a2348a1419b7ad8a47b3deaea6707bb3190",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/0c0f2a2348a1419b7ad8a47b3deaea6707bb3190/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0462a29cb352e8b4f386df9fddca4a829e573de6",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/0462a29cb352e8b4f386df9fddca4a829e573de6",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/0462a29cb352e8b4f386df9fddca4a829e573de6"
+      }
+    ]
+  },
+  {
+    "sha": "0462a29cb352e8b4f386df9fddca4a829e573de6",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T20:49:08Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T20:49:08Z"
+      },
+      "message": "typo fixed",
+      "tree": {
+        "sha": "9e36fb0f406a2a57754e65f443ca6d2664d3d270",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/9e36fb0f406a2a57754e65f443ca6d2664d3d270"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/0462a29cb352e8b4f386df9fddca4a829e573de6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/0462a29cb352e8b4f386df9fddca4a829e573de6",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/0462a29cb352e8b4f386df9fddca4a829e573de6",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/0462a29cb352e8b4f386df9fddca4a829e573de6/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20aaf9a7566b866ba8874069a5851ecdf79020cb",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/20aaf9a7566b866ba8874069a5851ecdf79020cb",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/20aaf9a7566b866ba8874069a5851ecdf79020cb"
+      }
+    ]
+  },
+  {
+    "sha": "20aaf9a7566b866ba8874069a5851ecdf79020cb",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T20:23:57Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2014-01-18T20:23:57Z"
+      },
+      "message": "fix renamed internal method _setData 2 _beforeSetData",
+      "tree": {
+        "sha": "46a5a494b8d91c8481c68163c18a5f7b9a772aab",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/46a5a494b8d91c8481c68163c18a5f7b9a772aab"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/20aaf9a7566b866ba8874069a5851ecdf79020cb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/20aaf9a7566b866ba8874069a5851ecdf79020cb",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/20aaf9a7566b866ba8874069a5851ecdf79020cb",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/20aaf9a7566b866ba8874069a5851ecdf79020cb/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1680689bc71cd4387c8cc264e1aaf2cdbb2488a1",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/1680689bc71cd4387c8cc264e1aaf2cdbb2488a1",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/1680689bc71cd4387c8cc264e1aaf2cdbb2488a1"
+      }
+    ]
+  }
+]

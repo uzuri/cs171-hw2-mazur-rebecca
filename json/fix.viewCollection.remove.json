@@ -1,0 +1,1942 @@
+[
+  {
+    "sha": "eaf743019c471f4e9321c266169160a4ae97257d",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T15:03:34Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T15:03:34Z"
+      },
+      "message": "fix check for ns-model-changed in viewCollection",
+      "tree": {
+        "sha": "f555cbb7023f5748f0d726eab521498ec9b784f0",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/f555cbb7023f5748f0d726eab521498ec9b784f0"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/eaf743019c471f4e9321c266169160a4ae97257d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/eaf743019c471f4e9321c266169160a4ae97257d",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/eaf743019c471f4e9321c266169160a4ae97257d",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/eaf743019c471f4e9321c266169160a4ae97257d/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ffd36ab050306910f87f984f89fdd1bdf520799f",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ffd36ab050306910f87f984f89fdd1bdf520799f",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ffd36ab050306910f87f984f89fdd1bdf520799f"
+      }
+    ]
+  },
+  {
+    "sha": "ffd36ab050306910f87f984f89fdd1bdf520799f",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T14:49:37Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T14:49:37Z"
+      },
+      "message": "fix ns-model-destroyed check",
+      "tree": {
+        "sha": "0e06942141bc70caf6d0ee497ee7832119785e1d",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/0e06942141bc70caf6d0ee497ee7832119785e1d"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ffd36ab050306910f87f984f89fdd1bdf520799f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ffd36ab050306910f87f984f89fdd1bdf520799f",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ffd36ab050306910f87f984f89fdd1bdf520799f",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ffd36ab050306910f87f984f89fdd1bdf520799f/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77"
+      }
+    ]
+  },
+  {
+    "sha": "ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T13:51:28Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T13:51:32Z"
+      },
+      "message": "fix for view-collection model-item destroyed reaction",
+      "tree": {
+        "sha": "207992e4986932cf08fbb55b6cfa6c503ed2e020",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/207992e4986932cf08fbb55b6cfa6c503ed2e020"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ba254a50b7c9e353cc9bf7e0c7d784fd1274ff77/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b9f5e437849c60ec835a0b5a5f115466df4d8d37",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b9f5e437849c60ec835a0b5a5f115466df4d8d37",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/b9f5e437849c60ec835a0b5a5f115466df4d8d37"
+      }
+    ]
+  },
+  {
+    "sha": "b9f5e437849c60ec835a0b5a5f115466df4d8d37",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T13:48:31Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T13:48:31Z"
+      },
+      "message": "testcase for viewcollection update after model-item was destroyed",
+      "tree": {
+        "sha": "76580f6631a623caf42e43fbffa4d887b5aac2a2",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/76580f6631a623caf42e43fbffa4d887b5aac2a2"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/b9f5e437849c60ec835a0b5a5f115466df4d8d37",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b9f5e437849c60ec835a0b5a5f115466df4d8d37",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/b9f5e437849c60ec835a0b5a5f115466df4d8d37",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/b9f5e437849c60ec835a0b5a5f115466df4d8d37/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ff02cfa954b016210fd7cbe214fa8e818adb5939",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ff02cfa954b016210fd7cbe214fa8e818adb5939",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ff02cfa954b016210fd7cbe214fa8e818adb5939"
+      }
+    ]
+  },
+  {
+    "sha": "ff02cfa954b016210fd7cbe214fa8e818adb5939",
+    "commit": {
+      "author": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T12:56:57Z"
+      },
+      "committer": {
+        "name": "chestozo",
+        "email": "chestozo@yandex-team.ru",
+        "date": "2013-11-25T12:56:57Z"
+      },
+      "message": "fix: typo in tests",
+      "tree": {
+        "sha": "252774b2782bdd5aeb9e1b79a7d6ce26d36da6d2",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/252774b2782bdd5aeb9e1b79a7d6ce26d36da6d2"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ff02cfa954b016210fd7cbe214fa8e818adb5939",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ff02cfa954b016210fd7cbe214fa8e818adb5939",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ff02cfa954b016210fd7cbe214fa8e818adb5939",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ff02cfa954b016210fd7cbe214fa8e818adb5939/comments",
+    "author": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chestozo",
+      "id": 498934,
+      "avatar_url": "https://gravatar.com/avatar/7b32e1a61632e10c92d73e77f628ca0f?d=https%3A%2F%2Fidenticons.github.com%2Fb826fbde3c9fd049813e3ef2a6e07f40.png&r=x",
+      "gravatar_id": "7b32e1a61632e10c92d73e77f628ca0f",
+      "url": "https://api.github.com/users/chestozo",
+      "html_url": "https://github.com/chestozo",
+      "followers_url": "https://api.github.com/users/chestozo/followers",
+      "following_url": "https://api.github.com/users/chestozo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chestozo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chestozo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chestozo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chestozo/orgs",
+      "repos_url": "https://api.github.com/users/chestozo/repos",
+      "events_url": "https://api.github.com/users/chestozo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chestozo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "581ed836aea17596176d90ac519fa04d7f584b0b",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/581ed836aea17596176d90ac519fa04d7f584b0b",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/581ed836aea17596176d90ac519fa04d7f584b0b"
+      }
+    ]
+  },
+  {
+    "sha": "581ed836aea17596176d90ac519fa04d7f584b0b",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-19T07:58:38Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-19T07:58:38Z"
+      },
+      "message": "Merge pull request #178 from yandex-ui/valid-model-status-on-insert\n\nsetting status \"ok\" to modelCollection on item inserting",
+      "tree": {
+        "sha": "5ae95a835884079d900ba3f11d2b62b9ba7cfbc7",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/5ae95a835884079d900ba3f11d2b62b9ba7cfbc7"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/581ed836aea17596176d90ac519fa04d7f584b0b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/581ed836aea17596176d90ac519fa04d7f584b0b",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/581ed836aea17596176d90ac519fa04d7f584b0b",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/581ed836aea17596176d90ac519fa04d7f584b0b/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7"
+      },
+      {
+        "sha": "c941e47a6e361822af43281062d13b396d8ee58e",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/c941e47a6e361822af43281062d13b396d8ee58e",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/c941e47a6e361822af43281062d13b396d8ee58e"
+      }
+    ]
+  },
+  {
+    "sha": "c941e47a6e361822af43281062d13b396d8ee58e",
+    "commit": {
+      "author": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-11-15T09:08:51Z"
+      },
+      "committer": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-11-15T09:08:51Z"
+      },
+      "message": "tests for model status on insert",
+      "tree": {
+        "sha": "5ae95a835884079d900ba3f11d2b62b9ba7cfbc7",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/5ae95a835884079d900ba3f11d2b62b9ba7cfbc7"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/c941e47a6e361822af43281062d13b396d8ee58e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/c941e47a6e361822af43281062d13b396d8ee58e",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/c941e47a6e361822af43281062d13b396d8ee58e",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/c941e47a6e361822af43281062d13b396d8ee58e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "b3f769b397b30b8ccd7cad617b40a6ec7b965db2",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b3f769b397b30b8ccd7cad617b40a6ec7b965db2",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/b3f769b397b30b8ccd7cad617b40a6ec7b965db2"
+      }
+    ]
+  },
+  {
+    "sha": "b3f769b397b30b8ccd7cad617b40a6ec7b965db2",
+    "commit": {
+      "author": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-11-14T14:42:51Z"
+      },
+      "committer": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-11-14T14:42:51Z"
+      },
+      "message": "setting status \"ok\" to modelCollection on item inserting",
+      "tree": {
+        "sha": "cdd8670ccd178b53ccbb71a8affa153f58e97aed",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/cdd8670ccd178b53ccbb71a8affa153f58e97aed"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/b3f769b397b30b8ccd7cad617b40a6ec7b965db2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/b3f769b397b30b8ccd7cad617b40a6ec7b965db2",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/b3f769b397b30b8ccd7cad617b40a6ec7b965db2",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/b3f769b397b30b8ccd7cad617b40a6ec7b965db2/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7"
+      }
+    ]
+  },
+  {
+    "sha": "4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-12T16:13:00Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-12T16:13:00Z"
+      },
+      "message": "v0.1.11",
+      "tree": {
+        "sha": "5d72444a6c06b201858d403eeec2fab86f045b3a",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/5d72444a6c06b201858d403eeec2fab86f045b3a"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/4f837068b70f248e7f7a87d4e2e0d61c9d3495c7/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ff234d50d5b23840dd46b235dfa2eabda8d06f69",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ff234d50d5b23840dd46b235dfa2eabda8d06f69",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ff234d50d5b23840dd46b235dfa2eabda8d06f69"
+      }
+    ]
+  },
+  {
+    "sha": "ff234d50d5b23840dd46b235dfa2eabda8d06f69",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-12T16:11:40Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-12T16:11:40Z"
+      },
+      "message": "Fix bug with bind/unbind global events",
+      "tree": {
+        "sha": "d32339c2fb8d5764ad455455ea32257471fd0281",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/d32339c2fb8d5764ad455455ea32257471fd0281"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ff234d50d5b23840dd46b235dfa2eabda8d06f69",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ff234d50d5b23840dd46b235dfa2eabda8d06f69",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ff234d50d5b23840dd46b235dfa2eabda8d06f69",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ff234d50d5b23840dd46b235dfa2eabda8d06f69/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c"
+      }
+    ]
+  },
+  {
+    "sha": "d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:45:55Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:45:55Z"
+      },
+      "message": "v0.1.10",
+      "tree": {
+        "sha": "7e2a57aedf85a2215a9efb08de174d2c95a22457",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/7e2a57aedf85a2215a9efb08de174d2c95a22457"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/d7b0bfe5bf398f4b36e4b76d657d2a5b4ee2040c/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2a565a807d7b88a3949f36e3da218bc9f4337552",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/2a565a807d7b88a3949f36e3da218bc9f4337552",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/2a565a807d7b88a3949f36e3da218bc9f4337552"
+      }
+    ]
+  },
+  {
+    "sha": "2a565a807d7b88a3949f36e3da218bc9f4337552",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:42:43Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:42:43Z"
+      },
+      "message": "up jscs",
+      "tree": {
+        "sha": "dc31c6547ad38090a80f2d20e7ac834527887077",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/dc31c6547ad38090a80f2d20e7ac834527887077"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/2a565a807d7b88a3949f36e3da218bc9f4337552",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/2a565a807d7b88a3949f36e3da218bc9f4337552",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/2a565a807d7b88a3949f36e3da218bc9f4337552",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/2a565a807d7b88a3949f36e3da218bc9f4337552/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8966089819d5d9cf3c4e222d0d0575abf1eb980",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/e8966089819d5d9cf3c4e222d0d0575abf1eb980",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/e8966089819d5d9cf3c4e222d0d0575abf1eb980"
+      }
+    ]
+  },
+  {
+    "sha": "e8966089819d5d9cf3c4e222d0d0575abf1eb980",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:41:35Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:41:35Z"
+      },
+      "message": "Fix #170 [ns.model] Метод get() должен всегда возвращать массив результатов",
+      "tree": {
+        "sha": "04da0ffe0f2b727bf79f4bc06dee4c6582b5ec1a",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/04da0ffe0f2b727bf79f4bc06dee4c6582b5ec1a"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/e8966089819d5d9cf3c4e222d0d0575abf1eb980",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/e8966089819d5d9cf3c4e222d0d0575abf1eb980",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/e8966089819d5d9cf3c4e222d0d0575abf1eb980",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/e8966089819d5d9cf3c4e222d0d0575abf1eb980/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "33819ae3a753b86a254706ba95d5826f0f14c73c",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/33819ae3a753b86a254706ba95d5826f0f14c73c",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/33819ae3a753b86a254706ba95d5826f0f14c73c"
+      }
+    ]
+  },
+  {
+    "sha": "33819ae3a753b86a254706ba95d5826f0f14c73c",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:28:42Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-11-08T10:28:42Z"
+      },
+      "message": "Merge pull request #174 from yandex-ui/model-destruction-refactor\n\nВыравнивание логики уничтожения моделей",
+      "tree": {
+        "sha": "b19fe2e0d928bc8578dfb5e651dc111f0a6d9cef",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/b19fe2e0d928bc8578dfb5e651dc111f0a6d9cef"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/33819ae3a753b86a254706ba95d5826f0f14c73c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/33819ae3a753b86a254706ba95d5826f0f14c73c",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/33819ae3a753b86a254706ba95d5826f0f14c73c",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/33819ae3a753b86a254706ba95d5826f0f14c73c/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "57b110418f0c4da9c8b153e1d5909d74719e9d94",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/57b110418f0c4da9c8b153e1d5909d74719e9d94",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/57b110418f0c4da9c8b153e1d5909d74719e9d94"
+      },
+      {
+        "sha": "ce00d85187fedb1b8f15c59fefd61d294319afe4",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ce00d85187fedb1b8f15c59fefd61d294319afe4",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ce00d85187fedb1b8f15c59fefd61d294319afe4"
+      }
+    ]
+  },
+  {
+    "sha": "ce00d85187fedb1b8f15c59fefd61d294319afe4",
+    "commit": {
+      "author": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-11-06T15:43:28Z"
+      },
+      "committer": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-11-06T15:43:28Z"
+      },
+      "message": "find -> getValid",
+      "tree": {
+        "sha": "b19fe2e0d928bc8578dfb5e651dc111f0a6d9cef",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/b19fe2e0d928bc8578dfb5e651dc111f0a6d9cef"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ce00d85187fedb1b8f15c59fefd61d294319afe4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ce00d85187fedb1b8f15c59fefd61d294319afe4",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ce00d85187fedb1b8f15c59fefd61d294319afe4",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ce00d85187fedb1b8f15c59fefd61d294319afe4/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e5fa0a650004564647cd0d6f5e9d16824d2c802a",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/e5fa0a650004564647cd0d6f5e9d16824d2c802a",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/e5fa0a650004564647cd0d6f5e9d16824d2c802a"
+      }
+    ]
+  },
+  {
+    "sha": "e5fa0a650004564647cd0d6f5e9d16824d2c802a",
+    "commit": {
+      "author": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-10-30T14:53:28Z"
+      },
+      "committer": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-11-01T15:55:27Z"
+      },
+      "message": "storing invalid model instances after destruction",
+      "tree": {
+        "sha": "5da735f20b50ba34edfc5b1173bf5e1b2000c876",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/5da735f20b50ba34edfc5b1173bf5e1b2000c876"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/e5fa0a650004564647cd0d6f5e9d16824d2c802a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/e5fa0a650004564647cd0d6f5e9d16824d2c802a",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/e5fa0a650004564647cd0d6f5e9d16824d2c802a",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/e5fa0a650004564647cd0d6f5e9d16824d2c802a/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "57b110418f0c4da9c8b153e1d5909d74719e9d94",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/57b110418f0c4da9c8b153e1d5909d74719e9d94",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/57b110418f0c4da9c8b153e1d5909d74719e9d94"
+      }
+    ]
+  },
+  {
+    "sha": "57b110418f0c4da9c8b153e1d5909d74719e9d94",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:53:43Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:54:05Z"
+      },
+      "message": "Add external for ns.router.generateUrl",
+      "tree": {
+        "sha": "b7822dde498e98c5c8ebf435bdf6768a3eee1024",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/b7822dde498e98c5c8ebf435bdf6768a3eee1024"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/57b110418f0c4da9c8b153e1d5909d74719e9d94",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/57b110418f0c4da9c8b153e1d5909d74719e9d94",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/57b110418f0c4da9c8b153e1d5909d74719e9d94",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/57b110418f0c4da9c8b153e1d5909d74719e9d94/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8bcb238b221ae37d081dc1779d447613aacfdc01",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8bcb238b221ae37d081dc1779d447613aacfdc01",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/8bcb238b221ae37d081dc1779d447613aacfdc01"
+      }
+    ]
+  },
+  {
+    "sha": "8bcb238b221ae37d081dc1779d447613aacfdc01",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:32:44Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:32:44Z"
+      },
+      "message": "Fix markup",
+      "tree": {
+        "sha": "00daa8f36ae2550a8ad282b6a799ba1e7e544ce3",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/00daa8f36ae2550a8ad282b6a799ba1e7e544ce3"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/8bcb238b221ae37d081dc1779d447613aacfdc01",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8bcb238b221ae37d081dc1779d447613aacfdc01",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/8bcb238b221ae37d081dc1779d447613aacfdc01",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/8bcb238b221ae37d081dc1779d447613aacfdc01/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fe5f31d3c4165a54159edb726b813dacfdae6f15",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/fe5f31d3c4165a54159edb726b813dacfdae6f15",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/fe5f31d3c4165a54159edb726b813dacfdae6f15"
+      }
+    ]
+  },
+  {
+    "sha": "fe5f31d3c4165a54159edb726b813dacfdae6f15",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:32:03Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:32:03Z"
+      },
+      "message": "Add yate some doc for yate helpers",
+      "tree": {
+        "sha": "59479fdf9c9ac5f6910a5bb4d584dd9e0287c7ec",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/59479fdf9c9ac5f6910a5bb4d584dd9e0287c7ec"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/fe5f31d3c4165a54159edb726b813dacfdae6f15",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/fe5f31d3c4165a54159edb726b813dacfdae6f15",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/fe5f31d3c4165a54159edb726b813dacfdae6f15",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/fe5f31d3c4165a54159edb726b813dacfdae6f15/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "061bcccd1814e2daa723e0e3783224c8ff240d9d",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/061bcccd1814e2daa723e0e3783224c8ff240d9d",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/061bcccd1814e2daa723e0e3783224c8ff240d9d"
+      }
+    ]
+  },
+  {
+    "sha": "061bcccd1814e2daa723e0e3783224c8ff240d9d",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:26:32Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:26:32Z"
+      },
+      "message": "Add doc to about JSON structure for view",
+      "tree": {
+        "sha": "9a4d83fac11df8b7070731067d5619bf9d6379f4",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/9a4d83fac11df8b7070731067d5619bf9d6379f4"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/061bcccd1814e2daa723e0e3783224c8ff240d9d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/061bcccd1814e2daa723e0e3783224c8ff240d9d",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/061bcccd1814e2daa723e0e3783224c8ff240d9d",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/061bcccd1814e2daa723e0e3783224c8ff240d9d/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7fcce8e5d9a9b236c011a00ea4a893495b16f9ac",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/7fcce8e5d9a9b236c011a00ea4a893495b16f9ac",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/7fcce8e5d9a9b236c011a00ea4a893495b16f9ac"
+      }
+    ]
+  },
+  {
+    "sha": "7fcce8e5d9a9b236c011a00ea4a893495b16f9ac",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:20:35Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T11:20:35Z"
+      },
+      "message": "Add doc to ns.view+yate",
+      "tree": {
+        "sha": "4a5d96e0a60285fce3451623b4602a32b4d66a20",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/4a5d96e0a60285fce3451623b4602a32b4d66a20"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/7fcce8e5d9a9b236c011a00ea4a893495b16f9ac",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/7fcce8e5d9a9b236c011a00ea4a893495b16f9ac",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/7fcce8e5d9a9b236c011a00ea4a893495b16f9ac",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/7fcce8e5d9a9b236c011a00ea4a893495b16f9ac/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ad53483921cbb6cc304d85e66f3217d04a873199",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ad53483921cbb6cc304d85e66f3217d04a873199",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ad53483921cbb6cc304d85e66f3217d04a873199"
+      }
+    ]
+  },
+  {
+    "sha": "ad53483921cbb6cc304d85e66f3217d04a873199",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T10:27:28Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-29T10:27:41Z"
+      },
+      "message": "Add doc to ns.view+yate",
+      "tree": {
+        "sha": "bab1d8d558405546dbf8d7f259b103ce4b914930",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/bab1d8d558405546dbf8d7f259b103ce4b914930"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/ad53483921cbb6cc304d85e66f3217d04a873199",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ad53483921cbb6cc304d85e66f3217d04a873199",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/ad53483921cbb6cc304d85e66f3217d04a873199",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/ad53483921cbb6cc304d85e66f3217d04a873199/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6c01c1acab70749c88d0f752353bf3b81aa23fbb",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/6c01c1acab70749c88d0f752353bf3b81aa23fbb",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/6c01c1acab70749c88d0f752353bf3b81aa23fbb"
+      }
+    ]
+  },
+  {
+    "sha": "6c01c1acab70749c88d0f752353bf3b81aa23fbb",
+    "commit": {
+      "author": {
+        "name": "edoroshenko",
+        "email": "doroshenkoes@gmail.com",
+        "date": "2013-10-23T13:25:36Z"
+      },
+      "committer": {
+        "name": "edoroshenko",
+        "email": "doroshenkoes@gmail.com",
+        "date": "2013-10-23T13:25:36Z"
+      },
+      "message": "Merge pull request #172 from yandex-ui/replace-history-state\n\nprevent to create a new history record by replacing a history state",
+      "tree": {
+        "sha": "031cf50d7812e3aeff66829008c6ea20116721d9",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/031cf50d7812e3aeff66829008c6ea20116721d9"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/6c01c1acab70749c88d0f752353bf3b81aa23fbb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/6c01c1acab70749c88d0f752353bf3b81aa23fbb",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/6c01c1acab70749c88d0f752353bf3b81aa23fbb",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/6c01c1acab70749c88d0f752353bf3b81aa23fbb/comments",
+    "author": {
+      "login": "edoroshenko",
+      "id": 1292187,
+      "avatar_url": "https://gravatar.com/avatar/1fc598bb48f3e6a3b850152e9b116387?d=https%3A%2F%2Fidenticons.github.com%2Fd997ac2c3a8ba6901eb43661239f9084.png&r=x",
+      "gravatar_id": "1fc598bb48f3e6a3b850152e9b116387",
+      "url": "https://api.github.com/users/edoroshenko",
+      "html_url": "https://github.com/edoroshenko",
+      "followers_url": "https://api.github.com/users/edoroshenko/followers",
+      "following_url": "https://api.github.com/users/edoroshenko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/edoroshenko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/edoroshenko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/edoroshenko/subscriptions",
+      "organizations_url": "https://api.github.com/users/edoroshenko/orgs",
+      "repos_url": "https://api.github.com/users/edoroshenko/repos",
+      "events_url": "https://api.github.com/users/edoroshenko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/edoroshenko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "edoroshenko",
+      "id": 1292187,
+      "avatar_url": "https://gravatar.com/avatar/1fc598bb48f3e6a3b850152e9b116387?d=https%3A%2F%2Fidenticons.github.com%2Fd997ac2c3a8ba6901eb43661239f9084.png&r=x",
+      "gravatar_id": "1fc598bb48f3e6a3b850152e9b116387",
+      "url": "https://api.github.com/users/edoroshenko",
+      "html_url": "https://github.com/edoroshenko",
+      "followers_url": "https://api.github.com/users/edoroshenko/followers",
+      "following_url": "https://api.github.com/users/edoroshenko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/edoroshenko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/edoroshenko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/edoroshenko/subscriptions",
+      "organizations_url": "https://api.github.com/users/edoroshenko/orgs",
+      "repos_url": "https://api.github.com/users/edoroshenko/repos",
+      "events_url": "https://api.github.com/users/edoroshenko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/edoroshenko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8311f442be181d980e315a502a9ea29b2bb712be",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8311f442be181d980e315a502a9ea29b2bb712be",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/8311f442be181d980e315a502a9ea29b2bb712be"
+      },
+      {
+        "sha": "988db37f33c2e04344e3329524b6d7ed78d28d57",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/988db37f33c2e04344e3329524b6d7ed78d28d57",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/988db37f33c2e04344e3329524b6d7ed78d28d57"
+      }
+    ]
+  },
+  {
+    "sha": "988db37f33c2e04344e3329524b6d7ed78d28d57",
+    "commit": {
+      "author": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-10-23T09:13:38Z"
+      },
+      "committer": {
+        "name": "esd",
+        "email": "esdoroshenko@yandex-team.ru",
+        "date": "2013-10-23T09:13:38Z"
+      },
+      "message": "prevent to create a new history record by replacing a history state",
+      "tree": {
+        "sha": "031cf50d7812e3aeff66829008c6ea20116721d9",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/031cf50d7812e3aeff66829008c6ea20116721d9"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/988db37f33c2e04344e3329524b6d7ed78d28d57",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/988db37f33c2e04344e3329524b6d7ed78d28d57",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/988db37f33c2e04344e3329524b6d7ed78d28d57",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/988db37f33c2e04344e3329524b6d7ed78d28d57/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "8311f442be181d980e315a502a9ea29b2bb712be",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8311f442be181d980e315a502a9ea29b2bb712be",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/8311f442be181d980e315a502a9ea29b2bb712be"
+      }
+    ]
+  },
+  {
+    "sha": "8311f442be181d980e315a502a9ea29b2bb712be",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-22T07:33:13Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-22T07:33:13Z"
+      },
+      "message": "v0.1.9",
+      "tree": {
+        "sha": "b80d45dd6723de10ff6d436d71f6843e95699e57",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/b80d45dd6723de10ff6d436d71f6843e95699e57"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/8311f442be181d980e315a502a9ea29b2bb712be",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8311f442be181d980e315a502a9ea29b2bb712be",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/8311f442be181d980e315a502a9ea29b2bb712be",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/8311f442be181d980e315a502a9ea29b2bb712be/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d84482142bbe714cabe4eafc87900c874f6735f1",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/d84482142bbe714cabe4eafc87900c874f6735f1",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/d84482142bbe714cabe4eafc87900c874f6735f1"
+      }
+    ]
+  },
+  {
+    "sha": "d84482142bbe714cabe4eafc87900c874f6735f1",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-22T07:29:52Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-22T07:29:52Z"
+      },
+      "message": "Merge pull request #171 from yandex-ui/drop-history-api-support-for-legacy-browsers\n\nВынесен polyfill для HTML5 History API",
+      "tree": {
+        "sha": "3e42a42349629f64222459dd5947fd0130a78191",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/3e42a42349629f64222459dd5947fd0130a78191"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/d84482142bbe714cabe4eafc87900c874f6735f1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/d84482142bbe714cabe4eafc87900c874f6735f1",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/d84482142bbe714cabe4eafc87900c874f6735f1",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/d84482142bbe714cabe4eafc87900c874f6735f1/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "14160ac2fdd07d001d1b806411d05b245f6d21f9",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/14160ac2fdd07d001d1b806411d05b245f6d21f9",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/14160ac2fdd07d001d1b806411d05b245f6d21f9"
+      },
+      {
+        "sha": "eda00573cdc5c618746eaaf76114b783329f1d5b",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/eda00573cdc5c618746eaaf76114b783329f1d5b",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/eda00573cdc5c618746eaaf76114b783329f1d5b"
+      }
+    ]
+  },
+  {
+    "sha": "eda00573cdc5c618746eaaf76114b783329f1d5b",
+    "commit": {
+      "author": {
+        "name": "lapple",
+        "email": "lapple@yandex-team.ru",
+        "date": "2013-10-22T07:18:29Z"
+      },
+      "committer": {
+        "name": "lapple",
+        "email": "lapple@yandex-team.ru",
+        "date": "2013-10-22T07:18:29Z"
+      },
+      "message": "Correct note on redirection in ns.history docs",
+      "tree": {
+        "sha": "3e42a42349629f64222459dd5947fd0130a78191",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/3e42a42349629f64222459dd5947fd0130a78191"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/eda00573cdc5c618746eaaf76114b783329f1d5b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/eda00573cdc5c618746eaaf76114b783329f1d5b",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/eda00573cdc5c618746eaaf76114b783329f1d5b",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/eda00573cdc5c618746eaaf76114b783329f1d5b/comments",
+    "author": {
+      "login": "Lapple",
+      "id": 1042560,
+      "avatar_url": "https://gravatar.com/avatar/2a4fcf299b37d87662b14df371f474e9?d=https%3A%2F%2Fidenticons.github.com%2F094f07fb47cc12acfaa7879a07c48b14.png&r=x",
+      "gravatar_id": "2a4fcf299b37d87662b14df371f474e9",
+      "url": "https://api.github.com/users/Lapple",
+      "html_url": "https://github.com/Lapple",
+      "followers_url": "https://api.github.com/users/Lapple/followers",
+      "following_url": "https://api.github.com/users/Lapple/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lapple/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lapple/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lapple/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lapple/orgs",
+      "repos_url": "https://api.github.com/users/Lapple/repos",
+      "events_url": "https://api.github.com/users/Lapple/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lapple/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Lapple",
+      "id": 1042560,
+      "avatar_url": "https://gravatar.com/avatar/2a4fcf299b37d87662b14df371f474e9?d=https%3A%2F%2Fidenticons.github.com%2F094f07fb47cc12acfaa7879a07c48b14.png&r=x",
+      "gravatar_id": "2a4fcf299b37d87662b14df371f474e9",
+      "url": "https://api.github.com/users/Lapple",
+      "html_url": "https://github.com/Lapple",
+      "followers_url": "https://api.github.com/users/Lapple/followers",
+      "following_url": "https://api.github.com/users/Lapple/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lapple/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lapple/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lapple/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lapple/orgs",
+      "repos_url": "https://api.github.com/users/Lapple/repos",
+      "events_url": "https://api.github.com/users/Lapple/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lapple/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "39e9d8d962c741b0a9fbace0f192e6f6ab2280d0",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/39e9d8d962c741b0a9fbace0f192e6f6ab2280d0",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/39e9d8d962c741b0a9fbace0f192e6f6ab2280d0"
+      }
+    ]
+  },
+  {
+    "sha": "39e9d8d962c741b0a9fbace0f192e6f6ab2280d0",
+    "commit": {
+      "author": {
+        "name": "lapple",
+        "email": "lapple@yandex-team.ru",
+        "date": "2013-10-21T08:53:40Z"
+      },
+      "committer": {
+        "name": "lapple",
+        "email": "lapple@yandex-team.ru",
+        "date": "2013-10-21T08:53:40Z"
+      },
+      "message": "Переработаны переопределения, добавлено описание подключения polyfill'а",
+      "tree": {
+        "sha": "693c87531b696f3952265ecf42e557dd97a56ae6",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/693c87531b696f3952265ecf42e557dd97a56ae6"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/39e9d8d962c741b0a9fbace0f192e6f6ab2280d0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/39e9d8d962c741b0a9fbace0f192e6f6ab2280d0",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/39e9d8d962c741b0a9fbace0f192e6f6ab2280d0",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/39e9d8d962c741b0a9fbace0f192e6f6ab2280d0/comments",
+    "author": {
+      "login": "Lapple",
+      "id": 1042560,
+      "avatar_url": "https://gravatar.com/avatar/2a4fcf299b37d87662b14df371f474e9?d=https%3A%2F%2Fidenticons.github.com%2F094f07fb47cc12acfaa7879a07c48b14.png&r=x",
+      "gravatar_id": "2a4fcf299b37d87662b14df371f474e9",
+      "url": "https://api.github.com/users/Lapple",
+      "html_url": "https://github.com/Lapple",
+      "followers_url": "https://api.github.com/users/Lapple/followers",
+      "following_url": "https://api.github.com/users/Lapple/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lapple/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lapple/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lapple/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lapple/orgs",
+      "repos_url": "https://api.github.com/users/Lapple/repos",
+      "events_url": "https://api.github.com/users/Lapple/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lapple/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Lapple",
+      "id": 1042560,
+      "avatar_url": "https://gravatar.com/avatar/2a4fcf299b37d87662b14df371f474e9?d=https%3A%2F%2Fidenticons.github.com%2F094f07fb47cc12acfaa7879a07c48b14.png&r=x",
+      "gravatar_id": "2a4fcf299b37d87662b14df371f474e9",
+      "url": "https://api.github.com/users/Lapple",
+      "html_url": "https://github.com/Lapple",
+      "followers_url": "https://api.github.com/users/Lapple/followers",
+      "following_url": "https://api.github.com/users/Lapple/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lapple/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lapple/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lapple/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lapple/orgs",
+      "repos_url": "https://api.github.com/users/Lapple/repos",
+      "events_url": "https://api.github.com/users/Lapple/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lapple/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f94b3d075ad0983d07255d7d48be2c79a5fd75cc",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/f94b3d075ad0983d07255d7d48be2c79a5fd75cc",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/f94b3d075ad0983d07255d7d48be2c79a5fd75cc"
+      }
+    ]
+  },
+  {
+    "sha": "f94b3d075ad0983d07255d7d48be2c79a5fd75cc",
+    "commit": {
+      "author": {
+        "name": "lapple",
+        "email": "lapple@yandex-team.ru",
+        "date": "2013-10-16T12:00:58Z"
+      },
+      "committer": {
+        "name": "lapple",
+        "email": "lapple@yandex-team.ru",
+        "date": "2013-10-16T14:14:58Z"
+      },
+      "message": "Вынесен polyfill для HTML5 History API",
+      "tree": {
+        "sha": "68b6cace588e9eaa6c47a144ff81a49cdb5d3edf",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/68b6cace588e9eaa6c47a144ff81a49cdb5d3edf"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/f94b3d075ad0983d07255d7d48be2c79a5fd75cc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/f94b3d075ad0983d07255d7d48be2c79a5fd75cc",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/f94b3d075ad0983d07255d7d48be2c79a5fd75cc",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/f94b3d075ad0983d07255d7d48be2c79a5fd75cc/comments",
+    "author": {
+      "login": "Lapple",
+      "id": 1042560,
+      "avatar_url": "https://gravatar.com/avatar/2a4fcf299b37d87662b14df371f474e9?d=https%3A%2F%2Fidenticons.github.com%2F094f07fb47cc12acfaa7879a07c48b14.png&r=x",
+      "gravatar_id": "2a4fcf299b37d87662b14df371f474e9",
+      "url": "https://api.github.com/users/Lapple",
+      "html_url": "https://github.com/Lapple",
+      "followers_url": "https://api.github.com/users/Lapple/followers",
+      "following_url": "https://api.github.com/users/Lapple/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lapple/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lapple/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lapple/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lapple/orgs",
+      "repos_url": "https://api.github.com/users/Lapple/repos",
+      "events_url": "https://api.github.com/users/Lapple/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lapple/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Lapple",
+      "id": 1042560,
+      "avatar_url": "https://gravatar.com/avatar/2a4fcf299b37d87662b14df371f474e9?d=https%3A%2F%2Fidenticons.github.com%2F094f07fb47cc12acfaa7879a07c48b14.png&r=x",
+      "gravatar_id": "2a4fcf299b37d87662b14df371f474e9",
+      "url": "https://api.github.com/users/Lapple",
+      "html_url": "https://github.com/Lapple",
+      "followers_url": "https://api.github.com/users/Lapple/followers",
+      "following_url": "https://api.github.com/users/Lapple/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lapple/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lapple/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lapple/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lapple/orgs",
+      "repos_url": "https://api.github.com/users/Lapple/repos",
+      "events_url": "https://api.github.com/users/Lapple/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lapple/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "14160ac2fdd07d001d1b806411d05b245f6d21f9",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/14160ac2fdd07d001d1b806411d05b245f6d21f9",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/14160ac2fdd07d001d1b806411d05b245f6d21f9"
+      }
+    ]
+  },
+  {
+    "sha": "14160ac2fdd07d001d1b806411d05b245f6d21f9",
+    "commit": {
+      "author": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-15T13:56:21Z"
+      },
+      "committer": {
+        "name": "Aleksei Androsov",
+        "email": "doochik@ya.ru",
+        "date": "2013-10-15T13:56:21Z"
+      },
+      "message": "v0.1.8",
+      "tree": {
+        "sha": "0106b3f3ef1ce8940820bcdaa7d1d357a400a2a8",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/0106b3f3ef1ce8940820bcdaa7d1d357a400a2a8"
+      },
+      "url": "https://api.github.com/repos/yandex-ui/noscript/git/commits/14160ac2fdd07d001d1b806411d05b245f6d21f9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/yandex-ui/noscript/commits/14160ac2fdd07d001d1b806411d05b245f6d21f9",
+    "html_url": "https://github.com/yandex-ui/noscript/commit/14160ac2fdd07d001d1b806411d05b245f6d21f9",
+    "comments_url": "https://api.github.com/repos/yandex-ui/noscript/commits/14160ac2fdd07d001d1b806411d05b245f6d21f9/comments",
+    "author": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "doochik",
+      "id": 31961,
+      "avatar_url": "https://gravatar.com/avatar/c6614b77fb5f3104068bb1a84038f2b7?d=https%3A%2F%2Fidenticons.github.com%2F8069a0ddc3a9e6fbcce919955738fc73.png&r=x",
+      "gravatar_id": "c6614b77fb5f3104068bb1a84038f2b7",
+      "url": "https://api.github.com/users/doochik",
+      "html_url": "https://github.com/doochik",
+      "followers_url": "https://api.github.com/users/doochik/followers",
+      "following_url": "https://api.github.com/users/doochik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doochik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doochik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doochik/subscriptions",
+      "organizations_url": "https://api.github.com/users/doochik/orgs",
+      "repos_url": "https://api.github.com/users/doochik/repos",
+      "events_url": "https://api.github.com/users/doochik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doochik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ace05437ef28e41b2653590d037fc635530aab51",
+        "url": "https://api.github.com/repos/yandex-ui/noscript/commits/ace05437ef28e41b2653590d037fc635530aab51",
+        "html_url": "https://github.com/yandex-ui/noscript/commit/ace05437ef28e41b2653590d037fc635530aab51"
+      }
+    ]
+  }
+]

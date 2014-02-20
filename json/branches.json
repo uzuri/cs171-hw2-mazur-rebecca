@@ -1,0 +1,72 @@
+[
+  {
+    "name": "box-animation",
+    "commit": {
+      "sha": "90fa971f14a616ec720ac3a733b1fc0adb0f4802",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/90fa971f14a616ec720ac3a733b1fc0adb0f4802"
+    }
+  },
+  {
+    "name": "collection.disperse",
+    "commit": {
+      "sha": "4e9b4d975a04f1bb1698a71011cffc25e430d4e2",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/4e9b4d975a04f1bb1698a71011cffc25e430d4e2"
+    }
+  },
+  {
+    "name": "do-not-recreate-destroyed-models",
+    "commit": {
+      "sha": "8f3a8849c96b8f565d39c4cbab4ddc867c2a4d05",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/8f3a8849c96b8f565d39c4cbab4ddc867c2a4d05"
+    }
+  },
+  {
+    "name": "fix.viewCollection.remove",
+    "commit": {
+      "sha": "eaf743019c471f4e9321c266169160a4ae97257d",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/eaf743019c471f4e9321c266169160a4ae97257d"
+    }
+  },
+  {
+    "name": "master",
+    "commit": {
+      "sha": "1efe04d2118312cf36c578e161bb8e248d4f9fdb",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/1efe04d2118312cf36c578e161bb8e248d4f9fdb"
+    }
+  },
+  {
+    "name": "master-old",
+    "commit": {
+      "sha": "813728bf4d4b66c17ac0e11662ef4c1782346592",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/813728bf4d4b66c17ac0e11662ef4c1782346592"
+    }
+  },
+  {
+    "name": "mixins",
+    "commit": {
+      "sha": "1be8c4b6129be7418bafeb3592b1c4b9b8c2193a",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/1be8c4b6129be7418bafeb3592b1c4b9b8c2193a"
+    }
+  },
+  {
+    "name": "next",
+    "commit": {
+      "sha": "dfa60ca36ad3e1b8e86614fb31aace78b8bca9e0",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/dfa60ca36ad3e1b8e86614fb31aace78b8bca9e0"
+    }
+  },
+  {
+    "name": "ns.router.generateUrl",
+    "commit": {
+      "sha": "66ff643c7f2b027076581f56d1915f585de05ddf",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/66ff643c7f2b027076581f56d1915f585de05ddf"
+    }
+  },
+  {
+    "name": "stub",
+    "commit": {
+      "sha": "1edd2dcb3855f0ad0093acba2528df70310a5046",
+      "url": "https://api.github.com/repos/yandex-ui/noscript/commits/1edd2dcb3855f0ad0093acba2528df70310a5046"
+    }
+  }
+]
