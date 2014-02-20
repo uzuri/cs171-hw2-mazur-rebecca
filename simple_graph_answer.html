@@ -226,28 +226,34 @@ if (remaining == 0)
 	
 	
 	function category_color() {
-	d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
+		d3.selectAll("circle")
+			.transition()
+			.duration(500)
+			.style("fill", function(d) { return fill(d.cat); });
 	}
 	
 	function category_size() {
-	d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return Math.sqrt((d.cat+1)*10); });
+		d3.selectAll("circle")
+			.transition()
+			.duration(500)
+			.attr("r", function(d) { 
+				return Math.sqrt((d.cat+1)*10); 
+			});
 	}
 	
 	function graph_update(delay) {
-	
-	
-	link.transition()
-	.duration(delay)
-	.attr("fill", "none")
-	.attr("d", function(d) {
-	return "M" + d.target.x + " " + d.target.y + " q" + 0 + " " + (d.source.y - d.target.y) + " " + (d.source.x - d.target.x) + " " + (d.source.y - d.target.y)
-	});
-	
-	node.transition()
-	.duration(delay)
-	.attr("transform", function(d) {
-	return "translate("+d.x+","+d.y+")";
-	});
+		link.transition()
+			.duration(delay)
+			.attr("fill", "none")
+			.attr("d", function(d) {
+				return "M" + d.target.x + " " + d.target.y + " q" + 0 + " " + (d.source.y - d.target.y) + " " + (d.source.x - d.target.x) + " " + (d.source.y - d.target.y)
+			});
+		
+		node.transition()
+			.duration(delay)
+			.attr("transform", function(d) {
+				return "translate("+d.x+","+d.y+")";
+			});
 	}
 	
 	d3.select("input[value=\"force\"]").on("click", force_layout);
@@ -255,136 +261,118 @@ if (remaining == 0)
 	d3.select("input[value=\"line\"]").on("click", line_layout);
 	d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
 	d3.select("input[value=\"radial\"]").on("click", radial_layout);
-	
 	d3.select("input[value=\"nocolor\"]").on("click", function() {
-	d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
+		d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
 	})
-	
 	d3.select("input[value=\"color_cat\"]").on("click", category_color);
-	
 	d3.select("input[value=\"nosize\"]").on("click", function() {
-	d3.selectAll("circle").transition().duration(500).attr("r", 5);
+		d3.selectAll("circle").transition().duration(500).attr("r", 5);
 	})
-	
 	d3.select("input[value=\"size_cat\"]").on("click", category_size);
-	
-	
 	d3.select("input[value=\"index\"]").on("click", function(){
-	graph.nodes.forEach(function(d, i) {
-	d.x = indexScale(i);
-	})
-	
-	graph_update(500);
+		graph.nodes.forEach(function(d, i) {
+			d.x = indexScale(i);
+		})
+		graph_update(500);
 	});
 	d3.select("input[value=\"time\"]").on("click", function(){
-	graph.nodes.forEach(function(d, i) {
-	var splitdate = d.commit.author.date.split("");
-	var thisdate = new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]);
-	d.x = timeScale(thisdate);
-	})
-	
-	graph_update(500);
+		graph.nodes.forEach(function(d, i) {
+			var splitdate = d.commit.author.date.split("");
+			var thisdate = new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]);
+			d.x = timeScale(thisdate);
+		})
+		
+		graph_update(500);
 	});
-	
 	
 	var link = svg.selectAll(".link")
-	.data(graph.links)
-	.enter()
-	.append("path")
-	.attr("class", "link")
-	.attr("marker-end", "url(#end)");
+		.data(graph.links)
+		.enter()
+		.append("path")
+		.attr("class", "link")
+		.attr("marker-end", "url(#end)");
 	
 	var node = svg.selectAll(".node")
-	.data(graph.nodes)
-	.enter()
-	.append("g")
-	.attr("class", function(d) {
-	return "cat" + d.cat + " node";
-	})
-	.on("mouseover", function(d) {
-	d3.selectAll("." + this.classList[0] + " circle")
-	.transition()
-	.duration(500)
-	.attr("r", function(d) {
-	return 8;
-	});
+		.data(graph.nodes)
+		.enter()
+		.append("g")
+		.attr("class", function(d) {
+			return "cat" + d.cat + " node";
+		})
+		.on("mouseover", function(d) {
+			d3.selectAll("." + this.classList[0] + " circle")
+			.transition()
+			.duration(500)
+			.attr("r", function(d) {
+				return 8;
+			});
+			
+			
+			svg.append("rect")
+				.attr("id", "hoverrect")
+				.attr("x", function() { return d.x; })
+				.attr("y", function() { return d.y; })
+				.attr("width", 300)
+				.attr("height", 40)
+				.attr("fill", "white")
+				.attr("stroke", "black")
+				.attr("stroke-width", 2);
+			
+			svg.append("text")
+				.attr("id", "hovernode")
+				.attr("x", function() { return d.x + 10; })
+				.attr("y", function() { return d.y + 20; })
+				.attr("width", 300)
+				.attr("height", 40)
+				.text(this.__data__.commit.author.name + " " + this.__data__.commit.author.date);
+		})
+		.on("mouseout", function(d) {
+			d3.selectAll("." + this.classList[0] + " circle")
+				.transition()
+				.duration(500)
+				.attr("r", function(d) {
+					return 5;
+				});
+			d3.selectAll("#hovernode")
+				.transition()
+				.duration(100)
+				.remove();
+			d3.selectAll("#hoverrect")
+				.transition()
+				.duration(100)
+				.remove();
+		});
 	
-	
-	svg.append("rect")
-	.attr("id", "hoverrect")
-	.attr("x", function() { return d.x; })
-	.attr("y", function() { return d.y; })
-	.attr("width", 300)
-	.attr("height", 40)
-	.attr("fill", "white")
-	.attr("stroke", "black")
-	.attr("stroke-width", 2);
-	
-	svg.append("text")
-	.attr("id", "hovernode")
-	.attr("x", function() { return d.x + 10; })
-	.attr("y", function() { return d.y + 20; })
-	.attr("width", 300)
-	.attr("height", 40)
-	.text(this.__data__.commit.author.name + " " + this.__data__.commit.author.date);
-	})
-	.on("mouseout", function(d) {
-	d3.selectAll("." + this.classList[0] + " circle")
-	.transition()
-	.duration(500)
-	.attr("r", function(d) {
-	return 5;
-	});
-	d3.selectAll("#hovernode")
-	.transition()
-	.duration(100)
-	.remove();
-	d3.selectAll("#hoverrect")
-	.transition()
-	.duration(100)
-	.remove();
-	});
-	
-	node.append("circle")
-	.attr("r", 5);
-	
-	
+	node.append("circle").attr("r", 5);
 	
 	var authlabel = svg.selectAll(".authors")
-	.data(catScale.domain())
-	.enter()
-	.append("text")
-	.attr("class", "authors")
-	.attr("y", function(d, i) {
-	return (height - force.charge())/2 + (i * 20);
-	})
-	.attr("x", margin)
-	.text(function(d) {
-	return d;
-	});
-	
+		.data(catScale.domain())
+		.enter()
+		.append("text")
+		.attr("class", "authors")
+		.attr("y", function(d, i) {
+			return (height - force.charge())/2 + (i * 20);
+		})
+		.attr("x", margin)
+		.text(function(d) { return d; });
 	
 	svg.append("svg:defs")
-	.selectAll("marker")
-	.data(["end"]) // Different link/path types can be defined here
-	.enter().append("svg:marker") // This section adds in the arrows
-	.attr("id", String)
-	.attr("viewBox", "0 -5 10 10")
-	.attr("refX", 15)
-	.attr("refY", -1.5)
-	.attr("markerWidth", 6)
-	.attr("markerHeight", 6)
-	.attr("orient", "auto")
-	.append("svg:path")
-	.attr("d", "M0,-5L10,0L0,5");
-	
+		.selectAll("marker")
+		.data(["end"]) // Different link/path types can be defined here
+		.enter().append("svg:marker") // This section adds in the arrows
+		.attr("id", String)
+		.attr("viewBox", "0 -5 10 10")
+		.attr("refX", 15)
+		.attr("refY", -1.5)
+		.attr("markerWidth", 6)
+		.attr("markerHeight", 6)
+		.attr("orient", "auto")
+		.append("svg:path")
+		.attr("d", "M0,-5L10,0L0,5");
+		
 	force_layout();
 	line_cat_layout();
 	category_color();
-					
-	
-	
-	
 }
 		});
 	}
