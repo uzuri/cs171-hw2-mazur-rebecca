@@ -45,10 +45,9 @@ Size:
   </form>
 <script>
 
-// Change this to hit github server later so as to not use up requests in testing
+// This actually works remotely if you swap the commented lines, but it's faster this way
 d3.json("json/branches.json", function(error, branches)
 //d3.json("https://api.github.com/repos/yandex-ui/noscript/branches", function(error, branches)
-//d3.json("https://api.github.com/repos/mozilla/localForage/commits?per_page=50", function(error, json)
 {
 	if (error) return console.warn(error);
 
