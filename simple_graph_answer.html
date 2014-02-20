@@ -122,6 +122,12 @@ if (remaining == 0)
 	};
 	catScale.domain(data.map(tree));
 	
+	
+	// Axes
+	
+	var xAxis = d3.svg.axis().scale(timeScale);
+	var yAxis = d3.svg.axis().scale(catScale);
+	
 	// Graph
 	
 	var graph = {nodes:[], links:[]};
@@ -345,17 +351,6 @@ if (remaining == 0)
 	
 	node.append("circle").attr("r", 5);
 	
-	var authlabel = svg.selectAll(".authors")
-		.data(catScale.domain())
-		.enter()
-		.append("text")
-		.attr("class", "authors")
-		.attr("y", function(d, i) {
-			return (height - force.charge())/2 + (i * 20);
-		})
-		.attr("x", margin)
-		.text(function(d) { return d; });
-	
 	svg.append("svg:defs")
 		.selectAll("marker")
 		.data(["end"]) // Different link/path types can be defined here
@@ -369,6 +364,10 @@ if (remaining == 0)
 		.attr("orient", "auto")
 		.append("svg:path")
 		.attr("d", "M0,-5L10,0L0,5");
+		
+		
+	svg.append("g").call(xAxis);
+	//svg.append("g").call(yAxis);
 		
 	force_layout();
 	line_cat_layout();
