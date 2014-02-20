@@ -63,6 +63,7 @@ d3.json("json/branches.json", function(error, branches)
 		
 		//d3.json("https://api.github.com/repos/yandex-ui/noscript/commits?sha=" +  branches[i].name, function(errorb, branch) {
 		d3.json("json/" + branches[i].name + ".json", function(errorb, branch) {
+// a little trick I found here https://groups.google.com/forum/?_escaped_fragment_=topic/d3-js/_AoYZMO9XL0#!topic/d3-js/_AoYZMO9XL0 for making sure all the json has loaded when you're hitting up an unknown number of files.  
 			--remaining;
 			for (j = 0; j < branch.length; j++)
 			{	
@@ -73,6 +74,7 @@ d3.json("json/branches.json", function(error, branches)
 					data.push(branch[j]);	
 				}
 			}
+			
 			
 if (remaining == 0)
 {                                            
@@ -127,27 +129,27 @@ if (remaining == 0)
 	graph.nodes = data;
 	
 	graph.nodes.map(function(d, i) {
-	graph.nodes.map(function(e, j) {
-	d.cat = catScale(d.author.login);
-	for (counter = 0; counter < d.parents.length; counter++)
-	{
-	if (d.parents[counter].sha == e.sha)
-	{
-	graph.links.push({"source": i, "target": j})
-	}
-	}
-	})
+		graph.nodes.map(function(e, j) {
+			d.cat = catScale(d.author.login);
+			for (counter = 0; counter < d.parents.length; counter++)
+			{
+				if (d.parents[counter].sha == e.sha)
+				{
+					graph.links.push({"source": i, "target": j})
+				}
+			}
+		})
 	});
 	
 	
 	// Generate the force layout
 	var force = d3.layout.force()
-	.size([width, height])
-	.charge(-50)
-	.linkDistance(10)
-	.on("tick", tick)
-	.on("start", function(d) {})
-	.on("end", function(d) {})
+		.size([width, height])
+		.charge(-50)
+		.linkDistance(10)
+		.on("tick", tick)
+		.on("start", function(d) {})
+		.on("end", function(d) {})
 	
 	var tick = function(d) 
 	{
@@ -159,8 +161,8 @@ if (remaining == 0)
 	force.stop();
 	
 	graph.nodes.forEach(function(d, i) {
-	d.x = width/4 + 2*width*Math.random()/4;
-	d.y = height/4 + 2*height*Math.random()/4;
+		d.x = width/4 + 2*width*Math.random()/4;
+		d.y = height/4 + 2*height*Math.random()/4;
 	})
 	
 	graph_update(500);
@@ -168,9 +170,9 @@ if (remaining == 0)
 	
 	function force_layout() {
 	
-	force.nodes(graph.nodes)
-	.links(graph.links)
-	.start();
+		force.nodes(graph.nodes)
+		.links(graph.links)
+		.start();
 	}
 	
 	function line_layout() {
