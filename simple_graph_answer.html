@@ -200,28 +200,28 @@ if (remaining == 0)
 	
 	function radial_layout() {
 	
-	force.stop();
-	
-	var r = height/2;
-	
-	var arc = d3.svg.arc()
-	.outerRadius(r);
-	
-	var pie = d3.layout.pie()
-	.sort(function(a, b) { return a.cat - b.cat;})
-	.value(function(d, i) { return 1; }); // equal share for each point
-	
-	graph.nodes = pie(graph.nodes).map(function(d, i) {
-	d.innerRadius = 0;
-	d.outerRadius = r;
-	d.data.x = arc.centroid(d)[0]+height/2;
-	d.data.y = arc.centroid(d)[1]+width/2;
-	d.data.endAngle = d.endAngle;
-	d.data.startAngle = d.startAngle;
-	return d.data;
-	})
-	
-	graph_update(500);
+		force.stop();
+		
+		var r = height/2;
+		
+		var arc = d3.svg.arc()
+			.outerRadius(r);
+		
+		var pie = d3.layout.pie()
+			.sort(function(a, b) { return a.cat - b.cat;})
+			.value(function(d, i) { return 1; }); // equal share for each point
+		
+		graph.nodes = pie(graph.nodes).map(function(d, i) {
+			d.innerRadius = 0;
+			d.outerRadius = r;
+			d.data.x = arc.centroid(d)[0]+height/2;
+			d.data.y = arc.centroid(d)[1]+width/2;
+			d.data.endAngle = d.endAngle;
+			d.data.startAngle = d.startAngle;
+			return d.data;
+		})
+		
+		graph_update(500);
 	}
 	
 	
