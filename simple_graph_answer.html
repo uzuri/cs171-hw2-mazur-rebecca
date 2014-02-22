@@ -116,6 +116,9 @@ if (remaining == 0)
 	
 	timeScale.domain([min, max]);
 	
+	
+	
+	
 	var catScale = d3.scale.ordinal().rangeRoundBands([0, 10], 0, 0);
 	var tree = function(d) { 
 		return d.author.login; 
@@ -123,10 +126,13 @@ if (remaining == 0)
 	catScale.domain(data.map(tree));
 	
 	
-	// Axes
+	var regScale = d3.scale.linear().range([0 + leftpadding, width - margin - leftpadding]);
+	regScale.domain([0, data.length]);
 	
-	var xAxis = d3.svg.axis().scale(timeScale);
-	var yAxis = d3.svg.axis().scale(catScale);
+	
+	// Axes
+	var xAxis = d3.svg.axis().scale(regScale).orient("bottom");
+	//var yAxis = d3.svg.axis().scale(catScale).orient("left");
 	
 	// Graph
 	
@@ -276,12 +282,21 @@ if (remaining == 0)
 	})
 	d3.select("input[value=\"size_cat\"]").on("click", category_size);
 	d3.select("input[value=\"index\"]").on("click", function(){
+		d3.selectAll("g#xaxis").remove();
+		xAxis.scale(regScale);
+		svg.append("g").attr("id", "xaxis").call(xAxis);
+	
 		graph.nodes.forEach(function(d, i) {
 			d.x = indexScale(i);
 		})
 		graph_update(500);
 	});
 	d3.select("input[value=\"time\"]").on("click", function(){
+		
+		d3.selectAll("g#xaxis").remove();
+		xAxis.scale(timeScale);
+		svg.append("g").attr("id", "xaxis").call(xAxis);
+	
 		graph.nodes.forEach(function(d, i) {
 			var splitdate = d.commit.author.date.split("");
 			var thisdate = new Date(splitdate[0] + splitdate[1] + splitdate[2] + splitdate[3], splitdate[5] + splitdate[6], splitdate[8] + splitdate[9], splitdate[11] + splitdate[12], splitdate[14] + splitdate[15], splitdate[17] + splitdate[18]);
@@ -316,8 +331,8 @@ if (remaining == 0)
 			
 			svg.append("rect")
 				.attr("id", "hoverrect")
-				.attr("x", function() { return d.x; })
-				.attr("y", function() { return d.y; })
+				.attr("x", function() { return d.x + 10; })
+				.attr("y", function() { return d.y + 10; })
 				.attr("width", 300)
 				.attr("height", 40)
 				.attr("fill", "white")
@@ -326,8 +341,8 @@ if (remaining == 0)
 			
 			svg.append("text")
 				.attr("id", "hovernode")
-				.attr("x", function() { return d.x + 10; })
-				.attr("y", function() { return d.y + 20; })
+				.attr("x", function() { return d.x + 20; })
+				.attr("y", function() { return d.y + 30; })
 				.attr("width", 300)
 				.attr("height", 40)
 				.text(this.__data__.commit.author.name + " " + this.__data__.commit.author.date);
@@ -366,7 +381,7 @@ if (remaining == 0)
 		.attr("d", "M0,-5L10,0L0,5");
 		
 		
-	svg.append("g").call(xAxis);
+	svg.append("g").attr("id", "xaxis").call(xAxis);
 	//svg.append("g").call(yAxis);
 		
 	force_layout();
