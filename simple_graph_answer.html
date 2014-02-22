@@ -45,39 +45,90 @@ Size:
   </form>
 <script>
 
-// This actually works remotely if you swap the commented lines, but it's faster this way
-d3.json("json/branches.json", function(error, branches)
-//d3.json("https://api.github.com/repos/yandex-ui/noscript/branches", function(error, branches)
+d3.json("json/master.json", function(error, data1)
 {
-	if (error) return console.warn(error);
-
-	
-	var remaining = 0;
-	
+d3.json("json/box-animation.json", function(error, data2)
+{
+d3.json("json/collection.disperse.json", function(error, data3)
+{
+d3.json("json/do-not-recreate-destroyed-models.json", function(error, data4)
+{
+d3.json("json/fix.viewCollection.remove.json", function(error, data5)
+{
+d3.json("json/master-old.json", function(error, data6)
+{
+d3.json("json/next.json", function(error, data7)
+{
+d3.json("json/ns.router.generateUrl.json", function(error, data8)
+{
+d3.json("json/stub.json", function(error, data9)
+{
+d3.json("json/mixins.json", function(error, data10)
+{
+                                  
 	var data = new Array();
 	
-	for (i = 0; i < branches.length; i++)
+	for (j = 0; j < data1.length; j++)
+	{	
+		data1[j].rawcat = "master";
+		data.push(data1[j]);	
+	}
+	for (j = 0; j < data2.length; j++)
+	{	
+		data2[j].rawcat = "box-animation";
+		data.push(data2[j]);	
+	}
+	for (j = 0; j < data3.length; j++)
+	{	
+		data3[j].rawcat = "collection.disperse";
+		data.push(data3[j]);	
+	}
+	for (j = 0; j < data4.length; j++)
+	{	
+		data4[j].rawcat = "do-not-recreate-destroyed-models";
+		data.push(data4[j]);	
+	}
+	for (j = 0; j < data5.length; j++)
+	{	
+		data5[j].rawcat = "fix.viewCollection.remove";
+		data.push(data5[j]);	
+	}
+	for (j = 0; j < data6.length; j++)
+	{	
+		data6[j].rawcat = "master-old";
+		data.push(data6[j]);	
+	}
+	for (j = 0; j < data10.length; j++)
+	{	
+		data10[j].rawcat = "mixins";
+		data.push(data10[j]);	
+	}
+	for (j = 0; j < data7.length; j++)
+	{	
+		data7[j].rawcat = "next";
+		data.push(data7[j]);	
+	}
+	for (j = 0; j < data8.length; j++)
+	{	
+		data8[j].rawcat = "ns.router.generateUrl";
+		data.push(data8[j]);	
+	}
+	for (j = 0; j < data9.length; j++)
+	{	
+		data9[j].rawcat = "stub";
+		data.push(data9[j]);	
+	}
+	
+	console.log(data);
+	                   
+	data.sort(function(a, b) 
 	{
-		++remaining;
-		
-		
-		//d3.json("https://api.github.com/repos/yandex-ui/noscript/commits?sha=" +  branches[i].name, function(errorb, branch) {
-		d3.json("json/" + branches[i].name + ".json", function(errorb, branch) {
-// a little trick I found here https://groups.google.com/forum/?_escaped_fragment_=topic/d3-js/_AoYZMO9XL0#!topic/d3-js/_AoYZMO9XL0 for making sure all the json has loaded when you're hitting up an unknown number of files.  
-			--remaining;
-			for (j = 0; j < branch.length; j++)
-			{	
-				// For some reason we have branches without authors; I'm not sure what to do with these, they keep breaking things, so I'm dropping them just so I have SOMETHING that works
-				if (branch[j].author)
-				{
-					branch[j].cat = branch[j].author;
-					data.push(branch[j]);	
-				}
-			}
-			
-			
-if (remaining == 0)
-{                                            
+		return d3.descending(a.commit.committer.date, b.commit.committer.date);
+	});
+	
+	console.log(data);
+	
+	
 	data.sort(function(a, b) 
 	{
 		return d3.descending(a.commit.author.date, b.commit.author.date);
@@ -86,7 +137,7 @@ if (remaining == 0)
 	console.log(data.length);
 	
 	var width = data.length * 15,
-		height = 400,
+		height = 700,
 		margin = 20;
 		leftpadding = 200;
 	
@@ -121,7 +172,7 @@ if (remaining == 0)
 	
 	var catScale = d3.scale.ordinal().rangeRoundBands([0, 10], 0, 0);
 	var tree = function(d) { 
-		return d.author.login; 
+		return d.rawcat; 
 	};
 	catScale.domain(data.map(tree));
 	
@@ -142,7 +193,7 @@ if (remaining == 0)
 	
 	graph.nodes.map(function(d, i) {
 		graph.nodes.map(function(e, j) {
-			d.cat = catScale(d.author.login);
+			d.cat = catScale(d.rawcat);
 			for (counter = 0; counter < d.parents.length; counter++)
 			{
 				if (d.parents[counter].sha == e.sha)
@@ -387,10 +438,15 @@ if (remaining == 0)
 	force_layout();
 	line_cat_layout();
 	category_color();
-}
-		});
-	}
-
+});
+});
+});
+});
+});
+});
+});
+});
+});
 });
 
 </script>

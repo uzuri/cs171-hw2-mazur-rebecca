@@ -4,8 +4,8 @@
 	* Attributes based on the nodes: who made this commit, what commit is it, where is the actual commit stored, what time was the commit made
 	* Follow path: trace back a commit to the root and figure out who contributed.
 
-2.  
+2.  It becomes insanely tangled and cluttered, there's just not enough room for everything.  It also becomes essentially impossible to track changes due to the size of the graph (and I ran out of vertical space).  I had to jump to github's graph to really understand the graphs themselves; there are more contributors, of course, more branches, but also people tend to hold a branch for a while and then make a commit (assuming this is people taking specific bug/features and working them out before merging them back).
 
-3.
+3. My graph is pretty spectacularly trashed by the larger repositories, even with doing some things to stretch things out and give stuff more space.
 
-4.
+4. I think that I'd implement some filtering -- let people be able to drop some branches or 
