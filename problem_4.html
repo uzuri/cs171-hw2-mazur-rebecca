@@ -3,7 +3,6 @@
 <title>Homework 2 Graph</title>
 <style>
   .link {
-    stroke: gray;
     stroke-width: 1.5px;
   }
 
@@ -124,7 +123,7 @@ d3.json("json/mixins.json", function(error, data10)
 		return d3.descending(a.commit.committer.date, b.commit.committer.date);
 	});
 	
-	var width = data.length * 15,
+	var width = 1200,
 		height = 400,
 		margin = 20,
 		leftpadding = 200
@@ -237,7 +236,7 @@ d3.json("json/mixins.json", function(error, data10)
 		force.stop();
 		
 		graph.nodes.forEach(function(d, i) {
-			d.y = margintop + d.cat*20;
+			d.y = margintop + d.cat*10;
 			d.x = indexScale(i);
 		})
 		
@@ -305,7 +304,10 @@ d3.json("json/mixins.json", function(error, data10)
 		.enter()
 		.append("path")
 		.attr("class", "link")
-		.attr("marker-end", "url(#end)");
+		.attr("marker-end", "url(#end)")
+		.attr("stroke", function(d) {
+			return fill(data[d.source].cat); 
+		});
 	
 	var node = svg.selectAll(".node")
 		.data(graph.nodes)
