@@ -12,7 +12,7 @@
         "email": "doochik@ya.ru",
         "date": "2014-02-07T16:44:20Z"
       },
-      "message": "Merge pull request #196 from ",
+      "message": "Merge pull request #196 from Lapple/interrupting-updates\n\nИсправление скрытия асинхронных видов при быстрой навигации по интерфейсу",
       "tree": {
         "sha": "eb77d2b2b20946136cad7fe72a459e27e93f4892",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/eb77d2b2b20946136cad7fe72a459e27e93f4892"
@@ -227,7 +227,7 @@
         "email": "romanok@bk.ru",
         "date": "2014-01-22T11:50:58Z"
       },
-      "message": "",
+      "message": "Дописал про события @show и @init",
       "tree": {
         "sha": "c3331083dca205090a91d7bd4663bff30c12f756",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/c3331083dca205090a91d7bd4663bff30c12f756"
@@ -297,7 +297,7 @@
         "email": "doroshenkoes@gmail.com",
         "date": "2014-01-14T14:42:17Z"
       },
-      "message": "Merge pull request #186 from yandex-ui/errors.handling\n\nns.update  ns.view: ",
+      "message": "Merge pull request #186 from yandex-ui/errors.handling\n\nns.update и ns.view: отображение ошибок",
       "tree": {
         "sha": "eef9a633b73dd76970dc234c361058df02082e81",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/eef9a633b73dd76970dc234c361058df02082e81"
@@ -1072,7 +1072,7 @@
         "email": "chestozo@yandex-team.ru",
         "date": "2013-12-02T09:01:20Z"
       },
-      "message": " ",
+      "message": "Новый API ns.page.go — см. замечания к пулреквесту",
       "tree": {
         "sha": "af61dcc7648e1ae879523b57a217341f1cf0d837",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/af61dcc7648e1ae879523b57a217341f1cf0d837"
@@ -1124,7 +1124,7 @@
         "email": "chestozo@yandex-team.ru",
         "date": "2013-12-02T09:01:20Z"
       },
-      "message": " ",
+      "message": "Новый API ns.page.go",
       "tree": {
         "sha": "511e1991fa5ab24d90022f19654e1e67de3fdbe7",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/511e1991fa5ab24d90022f19654e1e67de3fdbe7"
@@ -1176,7 +1176,7 @@
         "email": "doroshenkoes@gmail.com",
         "date": "2013-11-30T15:37:12Z"
       },
-      "message": " ",
+      "message": "Merge pull request #187 from i2r/page-go-api\n\nНовый API ns.page.go",
       "tree": {
         "sha": "c448b5268978139d20f9c36e0a801041845d4a0d",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/c448b5268978139d20f9c36e0a801041845d4a0d"
@@ -1251,7 +1251,7 @@
         "email": "garris@yandex-team.ru",
         "date": "2013-11-30T14:19:38Z"
       },
-      "message": " ",
+      "message": "Новый API ns.page.go — см. замечания к пулреквесту",
       "tree": {
         "sha": "c448b5268978139d20f9c36e0a801041845d4a0d",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/c448b5268978139d20f9c36e0a801041845d4a0d"
@@ -1285,7 +1285,7 @@
         "email": "garris@yandex-team.ru",
         "date": "2013-11-30T12:23:48Z"
       },
-      "message": " ",
+      "message": "Новый API ns.page.go",
       "tree": {
         "sha": "7b5ac2e443bbcdcc1a17b0cd28a7af84a8132269",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/7b5ac2e443bbcdcc1a17b0cd28a7af84a8132269"
@@ -1459,7 +1459,7 @@
         "email": "chestozo@yandex-team.ru",
         "date": "2013-11-29T14:48:21Z"
       },
-      "message": " ",
+      "message": "ns.Update.handleError метод",
       "tree": {
         "sha": "ca97230f0c181ea4d558f69cf315b006cee7ecf8",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/ca97230f0c181ea4d558f69cf315b006cee7ecf8"
@@ -1669,7 +1669,7 @@
         "email": "doroshenkoes@gmail.com",
         "date": "2013-11-25T15:04:20Z"
       },
-      "message": " ",
+      "message": "Merge pull request #182 from yandex-ui/fix.viewCollection.remove\n\nns.ViewCollection fix: не нужно полностью обновлять ноду коллекции, когда вызывается destroy для элемента",
       "tree": {
         "sha": "f555cbb7023f5748f0d726eab521498ec9b784f0",
         "url": "https://api.github.com/repos/yandex-ui/noscript/git/trees/f555cbb7023f5748f0d726eab521498ec9b784f0"
@@ -2012,4 +2012,3 @@
     ]
   }
 ]
-

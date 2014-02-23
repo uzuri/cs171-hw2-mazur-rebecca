@@ -19,29 +19,7 @@
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
-  <!--<form>
-Layout:
-<label><input type="radio" name="layout" value="force"> Force</label>
-<label><input type="radio" name="layout" value="random" > Random</label>
-<label><input type="radio" name="layout" value="radial"> Radial</label>
-<label><input type="radio" name="layout" value="line" checked> Line</label>
-<label><input type="radio" name="layout" value="line_cat"> Line by Category</label>
-</form>-->
-  <!--<form>
-Color:
-<label><input type="radio" name="color" value="nocolor" checked> None</label>
-<label><input type="radio" name="color" value="color_cat" > Category</label>
-</form>-->
-  <!--<form>
-Size:
-<label><input type="radio" name="size" value="nosize" checked> None</label>
-<label><input type="radio" name="size" value="size_cat" > Category</label>
-</form>-->
-  <form>
-  Axis:
-    <label><input type="radio" name="axis" value="index" checked> Indexed</label>
-    <label><input type="radio" name="axis" value="time" > Time</label>
-  </form>
+
 <script>
 
 d3.json("json/master.json", function(error, data1)
@@ -123,12 +101,13 @@ d3.json("json/mixins.json", function(error, data10)
 		return d3.descending(a.commit.committer.date, b.commit.committer.date);
 	});
 	
-	var width = 1200,
+	var width = 1000,
 		height = 800,
 		margin = 20,
 		leftpadding = 0
 		margintop = 50,
-		graphbottom = 200;
+		graphbottom = 200,
+		bubblemax = 30;
 	
 	var svg = d3.select("body")
 		.append("svg")
@@ -141,6 +120,8 @@ d3.json("json/mixins.json", function(error, data10)
 	
 	var indexScale = d3.scale.linear().range([0 + leftpadding, width - margin - leftpadding]);
 	indexScale.domain([data.length, 0]);
+	
+	
 	
 	
 	var timeScale = d3.time.scale().range([0 + leftpadding, width - margin - leftpadding]);
@@ -160,14 +141,13 @@ d3.json("json/mixins.json", function(error, data10)
 	
 	
 	var catScale = d3.scale.ordinal().rangeRoundBands([0, 10], 0, 0);
+	
 	var tree = function(d) { 
 		return d.rawcat; 
 	};
 	
 	
 	catScale.domain(data.map(tree));
-	
-	
 	
 	
 	// Axes
@@ -347,8 +327,6 @@ d3.json("json/mixins.json", function(error, data10)
 			catcount[index] = 0;
 		}
 		
-		console.log(catcount);
-		
 		d3.selectAll(".node").classed("selected", function(d) {
 			if ((timeScale(extent[0][0]) <= d.x && d.x < timeScale(extent[1][0])))
 			{
@@ -376,6 +354,14 @@ d3.json("json/mixins.json", function(error, data10)
 		catcount[index] = currsel[0].length;
 	}
 	
+	
+	
+	var bubbleScale = d3.scale.linear().range([0 + leftpadding + bubblemax, width - margin - leftpadding - bubblemax]);
+	bubbleScale.domain([0, 9]);
+	
+	console.log(bubbleScale.domain());
+	console.log(bubbleScale(1));
+	
 	var bubbles = svg.selectAll(".bubbles")
 		.data(catarray)
 		.enter()
@@ -388,7 +374,8 @@ d3.json("json/mixins.json", function(error, data10)
 			return catcount[catarray.indexOf(d)]
 		})
 		.attr("cx", function(d) {
-			return (catarray.indexOf(d) * 100) + leftpadding;
+			console.log(bubbleScale(catarray.indexOf(d)));
+			return bubbleScale(catarray.indexOf(d)) + leftpadding;
 		})
 		.attr("cy", function(d) {
 			return graphbottom + 100;
