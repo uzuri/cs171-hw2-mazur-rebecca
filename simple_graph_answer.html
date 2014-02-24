@@ -83,6 +83,7 @@ d3.json("json/mixins.json", function(error, data10)
 		data3[j].rawcat = "collection.disperse";
 		data.push(data3[j]);	
 	}
+	
 	for (j = 0; j < data4.length; j++)
 	{	
 		data4[j].rawcat = "do-not-recreate-destroyed-models";
@@ -119,32 +120,16 @@ d3.json("json/mixins.json", function(error, data10)
 		data.push(data9[j]);	
 	}
 	
-	console.log(data);
 	                   
 	data.sort(function(a, b) 
 	{
 		return d3.descending(a.commit.committer.date, b.commit.committer.date);
 	});
 	
-	console.log(data);
-	
-	
-	data.sort(function(a, b) 
-	{
-		return d3.descending(a.commit.author.date, b.commit.author.date);
-	});
-	
-	console.log(data.length);
-	
-	var width = 1200,
+	var width = data.length * 5,
 		height = 700,
-		margin = 20;
-		leftpadding = 200;
-	
-	var svg = d3.select("body")
-		.append("svg")
-		.attr("width", width)
-		.attr("height", height);
+		margin = 40;
+		leftpadding = 300;
 	
 	var fill = d3.scale.category10();
 	
@@ -176,6 +161,8 @@ d3.json("json/mixins.json", function(error, data10)
 	};
 	catScale.domain(data.map(tree));
 	
+	// Reset height so we don't have a lot of extra whitespace
+	height = (40 * catScale.domain().length) + (margin * 2);
 	
 	var regScale = d3.scale.linear().range([0 + leftpadding, width - margin - leftpadding]);
 	regScale.domain([0, data.length]);
@@ -183,7 +170,7 @@ d3.json("json/mixins.json", function(error, data10)
 	
 	// Axes
 	var xAxis = d3.svg.axis().scale(regScale).orient("bottom");
-	//var yAxis = d3.svg.axis().scale(catScale).orient("left");
+	var yAxis = d3.svg.axis().scale(catScale).orient("left");
 	
 	// Graph
 	
@@ -203,6 +190,15 @@ d3.json("json/mixins.json", function(error, data10)
 			}
 		})
 	});
+	
+	
+	// Draw SVG
+	
+	
+	var svg = d3.select("body")
+		.append("svg")
+		.attr("width", width)
+		.attr("height", height);
 	
 	
 	// Generate the force layout
@@ -254,7 +250,7 @@ d3.json("json/mixins.json", function(error, data10)
 		force.stop();
 		
 		graph.nodes.forEach(function(d, i) {
-			d.y = height/2 + d.cat*20;
+			d.y = margin + d.cat*20;
 			d.x = indexScale(i);
 		})
 		
@@ -433,8 +429,28 @@ d3.json("json/mixins.json", function(error, data10)
 		
 		
 	svg.append("g").attr("id", "xaxis").call(xAxis);
-	//svg.append("g").call(yAxis);
+	svg.append("g").attr("id", "yaxis").call(yAxis);
 		
+	
+	
+	
+	var branchlabel = svg.selectAll(".branches")
+		.data(catScale.domain())
+		.enter()
+		.append("text")
+		.attr("class", "branches")
+		.attr("y", function(d, i) {
+		
+			return margin + 5 + catScale(d)*20
+			//return (height - force.charge())/2 + (i * 20);
+		})
+		.attr("x", margin)
+		.text(function(d) {
+			return d;
+		});
+	
+	
+	
 	force_layout();
 	line_cat_layout();
 	category_color();
