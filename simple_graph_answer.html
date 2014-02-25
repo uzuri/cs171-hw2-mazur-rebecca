@@ -45,88 +45,54 @@ Size:
   </form>
 <script>
 
-d3.json("json/master.json", function(error, data1)
+
+var data = Array();
+var allbranches = Array();
+
+
+d3.json("json/branches.json", function(error, branches)
 {
-d3.json("json/box-animation.json", function(error, data2)
-{
-d3.json("json/collection.disperse.json", function(error, data3)
-{
-d3.json("json/do-not-recreate-destroyed-models.json", function(error, data4)
-{
-d3.json("json/fix.viewCollection.remove.json", function(error, data5)
-{
-d3.json("json/master-old.json", function(error, data6)
-{
-d3.json("json/next.json", function(error, data7)
-{
-d3.json("json/ns.router.generateUrl.json", function(error, data8)
-{
-d3.json("json/stub.json", function(error, data9)
-{
-d3.json("json/mixins.json", function(error, data10)
-{
-                                  
-	var data = new Array();
+	allbranches = branches;	
+
+	var totalbranches = branches.length;
+	var done = 0;
+
 	
-	for (j = 0; j < data1.length; j++)
-	{	
-		data1[j].rawcat = "master";
-		data.push(data1[j]);	
+	for (i = 0; i < totalbranches; i++)
+	{
+		++done;
+		
+		d3.json("json/" + branches[i].name + ".json", function(error, branch)
+		{
+			--done;
+			for (j = 0; j < branch.length; j++)
+			{	
+				// For some reason we have branches without authors; I'm not sure what to do with these, they keep breaking things, so I'm dropping them just so I have SOMETHING that works
+				if (branch[j].author)
+				{
+					branch[j].rawcat = branch[j].author.login;
+					data.push(branch[j]);	
+				}
+			}
+			
+			if (done == 0)
+			{
+				makeGraphs();
+			}
+		});
 	}
-	for (j = 0; j < data2.length; j++)
-	{	
-		data2[j].rawcat = "box-animation";
-		data.push(data2[j]);	
-	}
-	for (j = 0; j < data3.length; j++)
-	{	
-		data3[j].rawcat = "collection.disperse";
-		data.push(data3[j]);	
-	}
-	
-	for (j = 0; j < data4.length; j++)
-	{	
-		data4[j].rawcat = "do-not-recreate-destroyed-models";
-		data.push(data4[j]);	
-	}
-	for (j = 0; j < data5.length; j++)
-	{	
-		data5[j].rawcat = "fix.viewCollection.remove";
-		data.push(data5[j]);	
-	}
-	for (j = 0; j < data6.length; j++)
-	{	
-		data6[j].rawcat = "master-old";
-		data.push(data6[j]);	
-	}
-	for (j = 0; j < data10.length; j++)
-	{	
-		data10[j].rawcat = "mixins";
-		data.push(data10[j]);	
-	}
-	for (j = 0; j < data7.length; j++)
-	{	
-		data7[j].rawcat = "next";
-		data.push(data7[j]);	
-	}
-	for (j = 0; j < data8.length; j++)
-	{	
-		data8[j].rawcat = "ns.router.generateUrl";
-		data.push(data8[j]);	
-	}
-	for (j = 0; j < data9.length; j++)
-	{	
-		data9[j].rawcat = "stub";
-		data.push(data9[j]);	
-	}
-	
-	                   
+});
+
+
+
+function makeGraphs()
+{  
 	data.sort(function(a, b) 
 	{
 		return d3.descending(a.commit.committer.date, b.commit.committer.date);
 	});
 	
-	var width = data.length * 5,
+	var width = data.length * 15,
 		height = 700,
 		margin = 40;
 		leftpadding = 300;
@@ -160,6 +126,7 @@ d3.json("json/mixins.json", function(error, data10)
 		return d.rawcat; 
 	};
 	catScale.domain(data.map(tree));
+	
 	
 	// Reset height so we don't have a lot of extra whitespace
 	height = (40 * catScale.domain().length) + (margin * 2);
@@ -374,17 +341,7 @@ d3.json("json/mixins.json", function(error, data10)
 			.attr("r", function(d) {
 				return 8;
 			});
-			
-			
-			svg.append("rect")
-				.attr("id", "hoverrect")
-				.attr("x", function() { return d.x + 10; })
-				.attr("y", function() { return d.y + 10; })
-				.attr("width", 300)
-				.attr("height", 40)
-				.attr("fill", "white")
-				.attr("stroke", "black")
-				.attr("stroke-width", 2);
+		
 			
 			svg.append("text")
 				.attr("id", "hovernode")
@@ -402,10 +359,6 @@ d3.json("json/mixins.json", function(error, data10)
 					return 5;
 				});
 			d3.selectAll("#hovernode")
-				.transition()
-				.duration(100)
-				.remove();
-			d3.selectAll("#hoverrect")
 				.transition()
 				.duration(100)
 				.remove();
@@ -454,16 +407,7 @@ d3.json("json/mixins.json", function(error, data10)
 	force_layout();
 	line_cat_layout();
 	category_color();
-});
-});
-});
-});
-});
-});
-});
-});
-});
-});
+}
 
 </script>
 </body>
