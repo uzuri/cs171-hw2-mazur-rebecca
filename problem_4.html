@@ -107,7 +107,7 @@ d3.json("json/mixins.json", function(error, data10)
 		leftpadding = 0
 		margintop = 50,
 		graphbottom = 200,
-		bubblemax = 30;
+		bubblemax = 40;
 	
 	var svg = d3.select("body")
 		.append("svg")
@@ -348,6 +348,7 @@ d3.json("json/mixins.json", function(error, data10)
 	
 	var catarray = catScale.domain();
 	var catcount = Array();
+	
 	for (var index in catarray)
 	{
 		var currsel = d3.selectAll(".cat" + catScale(catScale.domain()[index]));
@@ -355,12 +356,11 @@ d3.json("json/mixins.json", function(error, data10)
 	}
 	
 	
+	var circScale = d3.scale.linear().range([0, bubblemax]);
+	circScale.domain([0, Math.max.apply(null, catcount)]);
 	
 	var bubbleScale = d3.scale.linear().range([0 + leftpadding + bubblemax, width - margin - leftpadding - bubblemax]);
 	bubbleScale.domain([0, 9]);
-	
-	console.log(bubbleScale.domain());
-	console.log(bubbleScale(1));
 	
 	var bubbles = svg.selectAll(".bubbles")
 		.data(catarray)
@@ -371,14 +371,41 @@ d3.json("json/mixins.json", function(error, data10)
 			return fill(d);
 		})
 		.attr("r", function(d) {
-			return catcount[catarray.indexOf(d)]
+			return circScale(catcount[catarray.indexOf(d)]);
 		})
 		.attr("cx", function(d) {
-			console.log(bubbleScale(catarray.indexOf(d)));
 			return bubbleScale(catarray.indexOf(d)) + leftpadding;
 		})
 		.attr("cy", function(d) {
 			return graphbottom + 100;
+		})
+		.on("click", function(d) {
+				
+			
+			d3.selectAll("#hovernode")
+				.transition()
+				.duration(100)
+				.remove();
+		
+			var commitsstring = "Commits: " + catarray.indexOf(d) + "<br />";
+			
+			
+			d3.selectAll(".selected").each(function(e) {
+				console.log(catScale(d));
+				if (catScale(d) == e.cat)
+				{	
+					commitsstring = commitsstring + "<a href='" +  e.html_url + "'>Commit</a>, ";
+				}
+			});
+			
+			
+			svg.append("foreignObject")
+				.attr("id", "hovernode")
+				.attr("x", this.cx.baseVal.value)
+				.attr("y", this.cy.baseVal.value)
+				.attr("width", 300)
+				.attr("height", 500)
+				.html("<p>" + commitsstring + "</p>");
 		});
 	
 	
