@@ -15,6 +15,13 @@
   .node:hover {
     fill: red;
   }
+  
+  .commitpara
+  {
+  	  height: 200px;
+  	  width: 300px;
+  	  overflow: scroll;
+  }
 
 </style>
 <body>
@@ -22,79 +29,49 @@
 
 <script>
 
-d3.json("json/master.json", function(error, data1)
+
+
+var data = Array();
+var allbranches = Array();
+
+
+d3.json("json/branches.json", function(error, branches)
 {
-d3.json("json/box-animation.json", function(error, data2)
-{
-d3.json("json/collection.disperse.json", function(error, data3)
-{
-d3.json("json/do-not-recreate-destroyed-models.json", function(error, data4)
-{
-d3.json("json/fix.viewCollection.remove.json", function(error, data5)
-{
-d3.json("json/master-old.json", function(error, data6)
-{
-d3.json("json/next.json", function(error, data7)
-{
-d3.json("json/ns.router.generateUrl.json", function(error, data8)
-{
-d3.json("json/stub.json", function(error, data9)
-{
-d3.json("json/mixins.json", function(error, data10)
-{
-                                  
-	var data = new Array();
+	allbranches = branches;	
+
+	var totalbranches = branches.length;
+	var done = 0;
+
 	
-	for (j = 0; j < data1.length; j++)
-	{	
-		data1[j].rawcat = "master";
-		data.push(data1[j]);	
+	for (i = 0; i < totalbranches; i++)
+	{
+		++done;
+		
+		d3.json("json/" + branches[i].name + ".json", function(error, branch)
+		{
+			--done;
+			for (j = 0; j < branch.length; j++)
+			{	
+				// For some reason we have branches without authors; I'm not sure what to do with these, they keep breaking things, so I'm dropping them just so I have SOMETHING that works
+				if (branch[j].author)
+				{
+					branch[j].rawcat = branch[j].author.login;
+					data.push(branch[j]);	
+				}
+			}
+			
+			if (done == 0)
+			{
+				makeGraphs();
+			}
+		});
 	}
-	for (j = 0; j < data2.length; j++)
-	{	
-		data2[j].rawcat = "box-animation";
-		data.push(data2[j]);	
-	}
-	for (j = 0; j < data3.length; j++)
-	{	
-		data3[j].rawcat = "collection.disperse";
-		data.push(data3[j]);	
-	}
-	for (j = 0; j < data4.length; j++)
-	{	
-		data4[j].rawcat = "do-not-recreate-destroyed-models";
-		data.push(data4[j]);	
-	}
-	for (j = 0; j < data5.length; j++)
-	{	
-		data5[j].rawcat = "fix.viewCollection.remove";
-		data.push(data5[j]);	
-	}
-	for (j = 0; j < data6.length; j++)
-	{	
-		data6[j].rawcat = "master-old";
-		data.push(data6[j]);	
-	}
-	for (j = 0; j < data10.length; j++)
-	{	
-		data10[j].rawcat = "mixins";
-		data.push(data10[j]);	
-	}
-	for (j = 0; j < data7.length; j++)
-	{	
-		data7[j].rawcat = "next";
-		data.push(data7[j]);	
-	}
-	for (j = 0; j < data8.length; j++)
-	{	
-		data8[j].rawcat = "ns.router.generateUrl";
-		data.push(data8[j]);	
-	}
-	for (j = 0; j < data9.length; j++)
-	{	
-		data9[j].rawcat = "stub";
-		data.push(data9[j]);	
-	}
+});
+
+
+
+function makeGraphs()
+{                     
 	                   
 	data.sort(function(a, b) 
 	{
@@ -107,7 +84,7 @@ d3.json("json/mixins.json", function(error, data10)
 		leftpadding = 0
 		margintop = 50,
 		graphbottom = 200,
-		bubblemax = 40;
+		bubblemax = 50;
 	
 	var svg = d3.select("body")
 		.append("svg")
@@ -322,7 +299,7 @@ d3.json("json/mixins.json", function(error, data10)
 	function brushed() {
 		var extent = brush.extent();
 		
-		for (var index in catcount)
+		for (var index in catarray)
 		{
 			catcount[index] = 0;
 		}
@@ -330,17 +307,23 @@ d3.json("json/mixins.json", function(error, data10)
 		d3.selectAll(".node").classed("selected", function(d) {
 			if ((timeScale(extent[0][0]) <= d.x && d.x < timeScale(extent[1][0])))
 			{
-				catcount[d.cat]++;
 				return true;
 			}
 			return false;
 		});
 		
-		d3.selectAll("circle")
+			
+		for (var index in catarray)
+		{
+			var currsel = d3.selectAll(".selected.cat" + catScale(catScale.domain()[index]));
+			catcount[index] = currsel[0].length;
+		}
+	
+		d3.selectAll(".bubble")
 			.transition()
 			.duration(750)
 			.attr("r", function(d) {
-				return catcount[catarray.indexOf(d)]
+				return circScale(catcount[catarray.indexOf(d)]);
 			})
 	}
 	
@@ -348,6 +331,7 @@ d3.json("json/mixins.json", function(error, data10)
 	
 	var catarray = catScale.domain();
 	var catcount = Array();
+	
 	
 	for (var index in catarray)
 	{
@@ -368,9 +352,9 @@ d3.json("json/mixins.json", function(error, data10)
 		.append("circle")
 		.attr("class", "bubble")
 		.attr("fill", function(d){
-			return fill(d);
+			return fill(catScale(d));
 		})
-		.attr("r", function(d) {
+		.attr("r", function(d) {	
 			return circScale(catcount[catarray.indexOf(d)]);
 		})
 		.attr("cx", function(d) {
@@ -380,22 +364,17 @@ d3.json("json/mixins.json", function(error, data10)
 			return graphbottom + 100;
 		})
 		.on("click", function(d) {
-				
-			
+		
 			d3.selectAll("#hovernode")
 				.transition()
 				.duration(100)
 				.remove();
-		
+				
 			var commitsstring = "Commits: " + catarray.indexOf(d) + "<br />";
 			
-			
-			d3.selectAll(".selected").each(function(e) {
-				console.log(catScale(d));
-				if (catScale(d) == e.cat)
-				{	
-					commitsstring = commitsstring + "<a href='" +  e.html_url + "'>Commit</a>, ";
-				}
+			                                  
+			d3.selectAll(".selected.cat" + catarray.indexOf(d)).each(function(e) {
+				commitsstring = commitsstring + "<a href='" +  e.html_url + "'>" + e.commit.author.name + " " + e.commit.author.date + "</a><br />";
 			});
 			
 			
@@ -405,26 +384,14 @@ d3.json("json/mixins.json", function(error, data10)
 				.attr("y", this.cy.baseVal.value)
 				.attr("width", 300)
 				.attr("height", 500)
-				.html("<p>" + commitsstring + "</p>");
+				.html("<p class='commitpara'>" + commitsstring + "</p>");
 		});
 	
 	
 	force_layout();
 	line_cat_layout();
 	
-	
-	
-
-});
-});
-});
-});
-});                                 
-});
-});
-});
-});
-});
+}
 
 </script>
 </body>
