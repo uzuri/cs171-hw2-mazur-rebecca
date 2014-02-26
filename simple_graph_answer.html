@@ -148,6 +148,7 @@ function makeGraphs()
 	graph.nodes.map(function(d, i) {
 		graph.nodes.map(function(e, j) {
 			d.cat = catScale(d.rawcat);
+			//  Find out what came from what via the parent data
 			for (counter = 0; counter < d.parents.length; counter++)
 			{
 				if (d.parents[counter].sha == e.sha)
