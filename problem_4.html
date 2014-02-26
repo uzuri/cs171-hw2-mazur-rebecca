@@ -302,6 +302,13 @@ function makeGraphs()
 	
 
 	function brushed() {
+	
+		
+		d3.selectAll("#hovernode")
+			.transition()
+			.duration(100)
+			.remove();
+	
 		var extent = brush.extent();
 		
 		for (var index in catarray)
@@ -368,7 +375,7 @@ function makeGraphs()
 		.attr("cy", function(d) {
 			return graphbottom + 100;
 		})
-		.on("click", function(d) {
+		.on("mouseover", function(d) {
 		
 			d3.selectAll("#hovernode")
 				.transition()
