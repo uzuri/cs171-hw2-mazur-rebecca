@@ -2,7 +2,6 @@ I'm disappointed in the finished product; it really doesn't seem that useful.  I
 
 I used the same basic setup that we did in the other vis, just adding the bubbles and removing most of the options/
 
-I'm running out of time or I might have looked into some other type of vis altogether. 
-
+I'm running out of time or I might have looked into some other type of vis altogether. Given my druthers, I think I also would have preprocessed the json with something other that javascript (not just with this problem, but with problem 2, too), to make it easier to deal with it.  Github's raw api data was messy to deal with in this particular application when a few simple structural tweaks could have made it much, much cleaner.
 
 
