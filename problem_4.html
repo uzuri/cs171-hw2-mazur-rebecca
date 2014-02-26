@@ -22,6 +22,11 @@
   	  width: 300px;
   	  overflow: scroll;
   }
+  
+  .bubble
+  {
+  	  cursor: pointer;
+  }
 
 </style>
 <body>
@@ -288,7 +293,7 @@ function makeGraphs()
 		.enter()
 		.append("g")
 		.attr("class", function(d) {
-			return "cat" + d.cat + " node";
+			return "selected cat" + d.cat + " node";
 		});
 	
 	node.append("circle").attr("r", 0);
@@ -370,10 +375,10 @@ function makeGraphs()
 				.duration(100)
 				.remove();
 				
-			var commitsstring = "Commits: " + catarray.indexOf(d) + "<br />";
+			var commitsstring = "Commits: " + catcount[catarray.indexOf(d)] + "<br />";
+			    
+			d3.selectAll(".selected.cat" + catScale(d)).each(function(e) {
 			
-			                                  
-			d3.selectAll(".selected.cat" + catarray.indexOf(d)).each(function(e) {
 				commitsstring = commitsstring + "<a href='" +  e.html_url + "'>" + e.commit.author.name + " " + e.commit.author.date + "</a><br />";
 			});
 			

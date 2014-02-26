@@ -9,3 +9,5 @@
 3. My graph is pretty spectacularly trashed by the larger repositories, even with doing some things to stretch things out and give stuff more space.
 
 4. I think that I'd implement some filtering -- let people be able to drop some branches or narrow things down to certain stretch of time.  That'll let people focus in on what they're really working with at the moment.  I think I'd also try (if I could figure out how) to arrange for some sort of sorting that would allow for more active branches to be pushed closer to each other depending on the space in time you were looking at.  Mostly I'm thinking there needs to be ways to simplify for the user, since few people can handle that much content at once.  It might also be worthwhile to condence commits within a day into a single node and let the user drill down if they need more details.
+
+The sketch for the design studio is hw2sketch.jpg
