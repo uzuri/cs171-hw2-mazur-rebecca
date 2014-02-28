@@ -11,9 +11,23 @@
 4. I think that I'd implement some filtering -- let people be able to drop some branches or narrow things down to certain stretch of time.  That'll let people focus in on what they're really working with at the moment.  I think I'd also try (if I could figure out how) to arrange for some sort of sorting that would allow for more active branches to be pushed closer to each other depending on the space in time you were looking at.  Mostly I'm thinking there needs to be ways to simplify for the user, since few people can handle that much content at once.  It might also be worthwhile to condence commits within a day into a single node and let the user drill down if they need more details.
 
 
-Design Studio Explanation:
+Design Studio:
+
+
+Analysis:
+
+* These networks show commits, users, branches, commit ids, commit notes, and times of commits.  Other things you might want to show would be the commiter's username (so you can find him easily) and a direct link to the commit (so you can grab it easily).
+* I don't see much use for git other than if you're a developer or someone who wants to download and use something stored on git (which probably means you're still a developer).  I suppose a user for the graphs themselves might be a project manager so that you can see how your team is doing (and who's doing the work).
+* I actually think this graph does about all you could hope it would, but an interesting thing to show might be a slice of time kind of view, where you see commits over a selected period of time.
+* This could be useful for a couple people: folks wanting to use a product (and looking for commits from a certain time period) and  managers (wanting to see exactly what was going on at a given time and who was doing it).  Let's take the manager; he'd probably most need the time and number of commits as applied to the person.  Dorect links to the commits would help him make sure that the commit was really a substantial one.
+
+
+Sketch
 
 The sketch for the design studio is hw2sketch.jpg
+
+
+Explanation
 
 My intention here was to give a "slice of time" view of the existing graph.
 
