@@ -26,6 +26,11 @@ Sketch
 
 The sketch for the design studio is hw2sketch.jpg
 
+* I decided to use size for the primary visual variable (the number of commits over a time).  Color indicates which committer and matches the color of the lines in the graph.
+* In this case clusters of commits are more important than individual ones, so they're grouped over time, and the overview graph doesn't even show the nodes.
+* I'd rather summarize by true branches if it were up to me.  API design decisions makes that a royal pain to actually pull off.
+* A node-link is a traditional way of showing git structures -- it is a tree, after all.  There really isn't a better way to show the data.
+
 
 Explanation
 
